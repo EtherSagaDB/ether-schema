@@ -1,6 +1,0 @@
-{
-  "name": "Talisman Merge Katalyst",
-  "id": "115",
-  "offset": 4,
-  "fields": [{ "name": "RAW", "type": "byte", "length": 4 }]
-}

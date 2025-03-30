@@ -1,9 +1,0 @@
-{
-  "name": "EQ Type",
-  "id": "002",
-  "offset": 4,
-  "fields": [
-    { "name": "ID", "type": "int32", "length": 4 },
-    { "name": "Name", "type": "string", "length": 64 }
-  ]
-}

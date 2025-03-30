@@ -1,9 +1,0 @@
-{
-  "name": "Monster Type",
-  "id": "021",
-  "offset": 12,
-  "fields": [
-    { "name": "ID", "type": "int32", "length": 4 },
-    { "name": "Name", "type": "string", "length": 64 }
-  ]
-}

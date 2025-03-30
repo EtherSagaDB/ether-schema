@@ -1,6 +1,0 @@
-{
-  "name": "NPC type",
-  "id": "071",
-  "offset": 4,
-  "fields": [{ "name": "RAW", "type": "byte", "length": 4 }]
-}
