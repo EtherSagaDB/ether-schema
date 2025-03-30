@@ -1,0 +1,21 @@
+{
+  "name": "Equipment Exchange",
+  "id": "060",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "GenItemID", "type": "int32", "length": 4 },
+    { "name": "GenItemLvl", "type": "int32", "length": 4 },
+    { "name": "MainItemID", "type": "int32", "length": 4 },
+    { "name": "MaintItemLevel", "type": "int32", "length": 4 },
+    { "name": "AuxItemID", "type": "int32", "length": 4 },
+    { "name": "Amount", "type": "int32", "length": 4 },
+    { "name": "AuxItemID", "type": "int32", "length": 4 },
+    { "name": "Amount", "type": "int32", "length": 4 },
+    { "name": "AuxItemID", "type": "int32", "length": 4 },
+    { "name": "Amount", "type": "int32", "length": 4 },
+    { "name": "SuccessRate", "type": "float", "length": 4 },
+    { "name": "Fee", "type": "int32", "length": 4 }
+  ]
+}

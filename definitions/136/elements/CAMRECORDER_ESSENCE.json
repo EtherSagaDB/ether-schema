@@ -1,0 +1,15 @@
+{
+  "name": "CAMRECORDER_ESSENCE",
+  "id": "109",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "file_matter", "type": "int32", "length": 4 },
+    { "name": "file_icon", "type": "int32", "length": 4 },
+    { "name": "price", "type": "int32", "length": 4 },
+    { "name": "shop_price", "type": "int32", "length": 4 },
+    { "name": "pile_num_max", "type": "int32", "length": 4 },
+    { "name": "proc_type", "type": "int32", "length": 4 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "NPC",
+  "id": "072",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "?", "type": "int32", "length": 4, "repeat": 5 },
+    { "name": "hello_msg", "type": "string", "length": 512 },
+    { "name": "?", "type": "int32", "length": 4, "repeat": 35 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "NPC Hotel Service",
+  "id": "032",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "WorldID", "type": "int32", "length": 4 },
+    { "name": "X", "type": "float", "length": 4 },
+    { "name": "Y", "type": "float", "length": 4 },
+    { "name": "Z", "type": "float", "length": 4 }
+  ]
+}

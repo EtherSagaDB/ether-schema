@@ -1,0 +1,23 @@
+{
+  "name": "PSTONE_ESSENCE",
+  "id": "091",
+  "offset": 12,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "file_matter", "type": "int32", "length": 4 },
+    { "name": "file_icon", "type": "int32", "length": 4 },
+    { "name": "type", "type": "int32", "length": 4 },
+    { "name": "equip_mask", "type": "int32", "length": 4 },
+    { "name": "addon_id_1", "type": "int32", "length": 4 },
+    { "name": "addon_id_2", "type": "int32", "length": 4 },
+    { "name": "addon_id_3", "type": "int32", "length": 4 },
+    { "name": "addon_id_4", "type": "int32", "length": 4 },
+    { "name": "addon_id_5", "type": "int32", "length": 4 },
+    { "name": "price", "type": "int32", "length": 4 },
+    { "name": "shop_price", "type": "int32", "length": 4 },
+    { "name": "rank", "type": "float", "length": 4 },
+    { "name": "pile_num_max", "type": "int32", "length": 4 },
+    { "name": "proc_type", "type": "int32", "length": 4 }
+  ]
+}

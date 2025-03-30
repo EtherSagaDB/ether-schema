@@ -1,0 +1,22 @@
+{
+  "name": "Garden Tools",
+  "id": "048",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "PathIDIcon", "type": "int32", "length": 4 },
+    { "name": "Level", "type": "int32", "length": 4 },
+    { "name": "GardenLevelMin", "type": "int32", "length": 4 },
+    { "name": "FunctionID1", "type": "int32", "length": 4 },
+    { "name": "FunctionID2", "type": "int32", "length": 4 },
+    { "name": "FunctionID3", "type": "int32", "length": 4 },
+    { "name": "FunctionID4", "type": "int32", "length": 4 },
+    { "name": "FunctionID5", "type": "int32", "length": 4 },
+    { "name": "HasTarget", "type": "int32", "length": 4 },
+    { "name": "SellPrice", "type": "int32", "length": 4 },
+    { "name": "BuyPrice", "type": "int32", "length": 4 },
+    { "name": "StackAmount", "type": "int32", "length": 4 },
+    { "name": "Proctype", "type": "int32", "length": 4 }
+  ]
+}

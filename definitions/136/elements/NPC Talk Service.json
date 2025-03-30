@@ -1,0 +1,10 @@
+{
+  "name": "NPC Talk Service",
+  "id": "061",
+  "offset": 24,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "DialogueID", "type": "int32", "length": 4 }
+  ]
+}

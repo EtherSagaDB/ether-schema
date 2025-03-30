@@ -1,0 +1,26 @@
+{
+  "name": "NPC Sell Service",
+  "id": "062",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "Title", "type": "string", "length": 16 },
+    { "name": "ItemID", "type": "int32", "length": 4, "repeat": 48 },
+    { "name": "DialogueID", "type": "int32", "length": 4 }
+  ]
+}
