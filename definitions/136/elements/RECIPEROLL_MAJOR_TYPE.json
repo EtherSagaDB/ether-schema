@@ -1,9 +1,1 @@
-{
-  "name": "RECIPEROLL_MAJOR_TYPE",
-  "id": "095",
-  "offset": 98,
-  "fields": [
-    { "name": "ID", "type": "int32", "length": 4 },
-    { "name": "Name", "type": "string", "length": 64 }
-  ]
-}
+{"name":"RECIPEROLL_MAJOR_TYPE","id":95,"offset":98,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64}]}

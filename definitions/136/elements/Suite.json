@@ -1,6 +1,1 @@
-{
-  "name": "Suite",
-  "id": "098",
-  "offset": 4,
-  "fields": [{ "name": "RAW", "type": "byte", "length": 4 }]
-}
+{"name":"Suite","id":98,"offset":4,"fields":[{"name":"RAW","type":"byte","length":4}]}

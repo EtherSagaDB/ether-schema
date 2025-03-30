@@ -1,9 +1,1 @@
-{
-  "name": "Droptable Type",
-  "id": "019",
-  "offset": 4,
-  "fields": [
-    { "name": "ID", "type": "int32", "length": 4 },
-    { "name": "Name", "type": "string", "length": 64 }
-  ]
-}
+{"name":"Droptable Type","id":19,"offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64}]}

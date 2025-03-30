@@ -1,10 +1,1 @@
-{
-  "name": "Produce Type Config",
-  "id": "033",
-  "offset": 4,
-  "fields": [
-    { "name": "ID", "type": "int32", "length": 4 },
-    { "name": "Name", "type": "string", "length": 64 },
-    { "name": "ProduceID", "type": "int32", "length": 4 }
-  ]
-}
+{"name":"Produce Type Config","id":33,"offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"ProduceID","type":"int32","length":4}]}

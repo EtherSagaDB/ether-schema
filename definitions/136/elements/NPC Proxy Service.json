@@ -1,10 +1,1 @@
-{
-  "name": "NPC Proxy Service",
-  "id": "069",
-  "offset": 4,
-  "fields": [
-    { "name": "ID", "type": "int32", "length": 4 },
-    { "name": "Name", "type": "string", "length": 64 },
-    { "name": "DialogueID", "type": "int32", "length": 4 }
-  ]
-}
+{"name":"NPC Proxy Service","id":69,"offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"DialogueID","type":"int32","length":4}]}

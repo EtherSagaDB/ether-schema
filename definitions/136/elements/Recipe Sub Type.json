@@ -1,9 +1,1 @@
-{
-  "name": "Recipe Sub Type",
-  "id": "074",
-  "offset": 4,
-  "fields": [
-    { "name": "ID", "type": "int32", "length": 4 },
-    { "name": "Name", "type": "string", "length": 64 }
-  ]
-}
+{"name":"Recipe Sub Type","id":74,"offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64}]}

@@ -1,6 +1,1 @@
-{
-  "name": "Talisman Main Part",
-  "id": "113",
-  "offset": 4,
-  "fields": [{ "name": "RAW", "type": "byte", "length": 4 }]
-}
+{"name":"Talisman Main Part","id":113,"offset":4,"fields":[{"name":"RAW","type":"byte","length":4}]}

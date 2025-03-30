@@ -1,6 +1,1 @@
-{
-  "name": "Text Fireworks",
-  "id": "112",
-  "offset": 4,
-  "fields": [{ "name": "RAW", "type": "byte", "length": 4 }]
-}
+{"name":"Text Fireworks","id":112,"offset":4,"fields":[{"name":"RAW","type":"byte","length":4}]}
