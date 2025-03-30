@@ -1,1 +1,10 @@
-{"name":"Speaker Level Amount","id":"051","offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"NumbyLevel","type":"int32","length":4,"repeat":14}]}
+{
+  "name": "Speaker Level Amount",
+  "id": "051",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "NumbyLevel", "type": "int32", "length": 4, "repeat": 14 }
+  ]
+}

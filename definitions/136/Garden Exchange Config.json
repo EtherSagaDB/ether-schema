@@ -1,1 +1,9 @@
-{"name":"Garden Exchange Config","id":"056","offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Bytes","type":"byte","length":7808}]}
+{
+  "name": "Garden Exchange Config",
+  "id": "056",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Bytes", "type": "byte", "length": 7808 }
+  ]
+}

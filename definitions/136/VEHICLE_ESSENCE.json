@@ -1,1 +1,32 @@
-{"name":"VEHICLE_ESSENCE","id":"106","offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"file_model","type":"int32","length":4},{"name":"file_matter","type":"int32","length":4},{"name":"file_icon","type":"int32","length":4},{"name":"level_required","type":"int32","length":4},{"name":"only_in_war","type":"int32","length":4},{"name":"speed","type":"float","length":4},{"name":"height","type":"float","length":4},{"name":"action","type":"string","length":32},{"name":"can_attack","type":"int32","length":4},{"name":"addons_1_id","type":"int32","length":4},{"name":"addons_1_level","type":"int32","length":4},{"name":"addons_2_id","type":"int32","length":4},{"name":"addons_2_level","type":"int32","length":4},{"name":"addons_3_id","type":"int32","length":4},{"name":"addons_3_level","type":"int32","length":4},{"name":"addons_4_id","type":"int32","length":4},{"name":"addons_4_level","type":"int32","length":4},{"name":"addons_5_id","type":"int32","length":4},{"name":"addons_5_level","type":"int32","length":4},{"name":"price","type":"int32","length":4},{"name":"shop_price","type":"int32","length":4},{"name":"pile_num_max","type":"int32","length":4},{"name":"proc_type","type":"int32","length":4}]}
+{
+  "name": "VEHICLE_ESSENCE",
+  "id": "106",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "file_model", "type": "int32", "length": 4 },
+    { "name": "file_matter", "type": "int32", "length": 4 },
+    { "name": "file_icon", "type": "int32", "length": 4 },
+    { "name": "level_required", "type": "int32", "length": 4 },
+    { "name": "only_in_war", "type": "int32", "length": 4 },
+    { "name": "speed", "type": "float", "length": 4 },
+    { "name": "height", "type": "float", "length": 4 },
+    { "name": "action", "type": "string", "length": 32 },
+    { "name": "can_attack", "type": "int32", "length": 4 },
+    { "name": "addons_1_id", "type": "int32", "length": 4 },
+    { "name": "addons_1_level", "type": "int32", "length": 4 },
+    { "name": "addons_2_id", "type": "int32", "length": 4 },
+    { "name": "addons_2_level", "type": "int32", "length": 4 },
+    { "name": "addons_3_id", "type": "int32", "length": 4 },
+    { "name": "addons_3_level", "type": "int32", "length": 4 },
+    { "name": "addons_4_id", "type": "int32", "length": 4 },
+    { "name": "addons_4_level", "type": "int32", "length": 4 },
+    { "name": "addons_5_id", "type": "int32", "length": 4 },
+    { "name": "addons_5_level", "type": "int32", "length": 4 },
+    { "name": "price", "type": "int32", "length": 4 },
+    { "name": "shop_price", "type": "int32", "length": 4 },
+    { "name": "pile_num_max", "type": "int32", "length": 4 },
+    { "name": "proc_type", "type": "int32", "length": 4 }
+  ]
+}

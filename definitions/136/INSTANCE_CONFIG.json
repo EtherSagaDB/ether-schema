@@ -1,1 +1,449 @@
-{"name":"INSTANCE_CONFIG","id":"120","offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"pvp_type","type":"int32","length":4},{"name":"world_index","type":"int32","length":4},{"name":"inst_time","type":"int32","length":4},{"name":"inst_revive_time","type":"int32","length":4},{"name":"max_copy_num","type":"int32","length":4},{"name":"midway_join","type":"int32","length":4},{"name":"zero_player_time","type":"int32","length":4},{"name":"min_player_num","type":"int32","length":4},{"name":"min_player_time","type":"int32","length":4},{"name":"play_type","type":"int32","length":4},{"name":"monster_lvl_adjust","type":"int32","length":4},{"name":"win_def_time","type":"int32","length":4},{"name":"lose_pve","type":"int32","length":4},{"name":"id_global_ctrl","type":"int32","length":4},{"name":"id_ctrl_prep","type":"int32","length":4},{"name":"id_ctrl_begin","type":"int32","length":4},{"name":"id_ctrl_end","type":"int32","length":4},{"name":"score_task_ids_1","type":"int32","length":4},{"name":"score_task_ids_2","type":"int32","length":4},{"name":"score_task_ids_3","type":"int32","length":4},{"name":"score_task_ids_4","type":"int32","length":4},{"name":"score_task_ids_5","type":"int32","length":4},{"name":"score_awards_1","type":"int32","length":4},{"name":"score_awards_2","type":"int32","length":4},{"name":"score_awards_3","type":"int32","length":4},{"name":"score_awards_4","type":"int32","length":4},{"name":"score_awards_5","type":"int32","length":4},{"name":"max_spectator_num","type":"int32","length":4},{"name":"id_spectator_item","type":"int32","length":4},{"name":"no_spectator_min_x","type":"int32","length":4},{"name":"no_spectator_min_y","type":"int32","length":4},{"name":"no_spectator_min_z","type":"int32","length":4},{"name":"no_spectator_max_x","type":"int32","length":4},{"name":"no_spectator_max_y","type":"int32","length":4},{"name":"no_spectator_max_z","type":"int32","length":4},{"name":"sides_1_max_player","type":"int32","length":4},{"name":"sides_1_start_player_num","type":"int32","length":4},{"name":"sides_1_close_player_num","type":"int32","length":4},{"name":"sides_1_min_level_req","type":"int32","length":4},{"name":"sides_1_max_level_req","type":"int32","length":4},{"name":"sides_1_max_prof_player","type":"int32","length":4},{"name":"sides_1_req_camp","type":"int32","length":4},{"name":"sides_1_req_item","type":"int32","length":4},{"name":"sides_1_req_money","type":"int32","length":4},{"name":"sides_1_enter_pos","type":"int32","length":4},{"name":"sides_1_def_revive_pos","type":"int32","length":4},{"name":"sides_1_revive_pos_1","type":"int32","length":4},{"name":"sides_1_revive_pos_2","type":"int32","length":4},{"name":"sides_1_revive_pos_3","type":"int32","length":4},{"name":"sides_1_revive_pos_4","type":"int32","length":4},{"name":"sides_1_revive_pos_5","type":"int32","length":4},{"name":"sides_1_revive_pos_6","type":"int32","length":4},{"name":"sides_1_revive_pos_7","type":"int32","length":4},{"name":"sides_1_revive_pos_8","type":"int32","length":4},{"name":"sides_1_monster_dummy","type":"int32","length":4},{"name":"sides_1_loot_dummy","type":"int32","length":4},{"name":"sides_1_task_1","type":"int32","length":4},{"name":"sides_1_task_2","type":"int32","length":4},{"name":"sides_1_task_3","type":"int32","length":4},{"name":"sides_1_task_4","type":"int32","length":4},{"name":"sides_1_task_5","type":"int32","length":4},{"name":"sides_1_win_kill_monster","type":"int32","length":4},{"name":"sides_1_win_res_point","type":"int32","length":4},{"name":"sides_1_win_score_point","type":"int32","length":4},{"name":"sides_1_res_holds_1_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_1_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_2_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_2_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_3_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_3_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_4_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_4_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_5_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_5_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_6_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_6_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_7_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_7_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_8_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_8_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_9_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_9_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_10_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_10_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_11_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_11_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_12_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_12_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_13_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_13_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_14_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_14_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_15_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_15_res_inc_speed","type":"int32","length":4},{"name":"sides_1_res_holds_16_id_res","type":"int32","length":4},{"name":"sides_1_res_holds_16_res_inc_speed","type":"int32","length":4},{"name":"sides_1_id_reward_win","type":"int32","length":4},{"name":"sides_1_id_reward_lose","type":"int32","length":4},{"name":"sides_1_id_reward_deuce","type":"int32","length":4},{"name":"sides_1_start_area_min_1","type":"float","length":4},{"name":"sides_1_start_area_min_2","type":"float","length":4},{"name":"sides_1_start_area_min_3","type":"float","length":4},{"name":"sides_1_start_area_max_1","type":"float","length":4},{"name":"sides_1_start_area_max_2","type":"float","length":4},{"name":"sides_1_start_area_max_3","type":"float","length":4},{"name":"sides_1_battle_point_task_award_1","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_2","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_3","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_4","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_5","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_6","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_7","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_8","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_9","type":"int32","length":4},{"name":"sides_1_battle_point_task_award_10","type":"int32","length":4},{"name":"sides_1_battle_point_1","type":"int32","length":4},{"name":"sides_1_battle_point_2","type":"int32","length":4},{"name":"sides_1_battle_point_3","type":"int32","length":4},{"name":"sides_1_battle_point_4","type":"int32","length":4},{"name":"sides_1_battle_point_5","type":"int32","length":4},{"name":"sides_1_battle_point_6","type":"int32","length":4},{"name":"sides_1_battle_point_7","type":"int32","length":4},{"name":"sides_1_battle_point_8","type":"int32","length":4},{"name":"sides_1_battle_point_9","type":"int32","length":4},{"name":"sides_1_battle_point_10","type":"int32","length":4},{"name":"sides_1_init_battle_point","type":"int32","length":4},{"name":"sides_1_fail_battle_point","type":"int32","length":4},{"name":"sides_1_need_repu_id","type":"int32","length":4},{"name":"sides_1_need_repu_amount","type":"int32","length":4},{"name":"sides_1_drop_repu_decay_base","type":"int32","length":4},{"name":"sides_2_max_player","type":"int32","length":4},{"name":"sides_2_start_player_num","type":"int32","length":4},{"name":"sides_2_close_player_num","type":"int32","length":4},{"name":"sides_2_min_level_req","type":"int32","length":4},{"name":"sides_2_max_level_req","type":"int32","length":4},{"name":"sides_2_max_prof_player","type":"int32","length":4},{"name":"sides_2_req_camp","type":"int32","length":4},{"name":"sides_2_req_item","type":"int32","length":4},{"name":"sides_2_req_money","type":"int32","length":4},{"name":"sides_2_enter_pos","type":"int32","length":4},{"name":"sides_2_def_revive_pos","type":"int32","length":4},{"name":"sides_2_revive_pos_1","type":"int32","length":4},{"name":"sides_2_revive_pos_2","type":"int32","length":4},{"name":"sides_2_revive_pos_3","type":"int32","length":4},{"name":"sides_2_revive_pos_4","type":"int32","length":4},{"name":"sides_2_revive_pos_5","type":"int32","length":4},{"name":"sides_2_revive_pos_6","type":"int32","length":4},{"name":"sides_2_revive_pos_7","type":"int32","length":4},{"name":"sides_2_revive_pos_8","type":"int32","length":4},{"name":"sides_2_monster_dummy","type":"int32","length":4},{"name":"sides_2_loot_dummy","type":"int32","length":4},{"name":"sides_2_task_1","type":"int32","length":4},{"name":"sides_2_task_2","type":"int32","length":4},{"name":"sides_2_task_3","type":"int32","length":4},{"name":"sides_2_task_4","type":"int32","length":4},{"name":"sides_2_task_5","type":"int32","length":4},{"name":"sides_2_win_kill_monster","type":"int32","length":4},{"name":"sides_2_win_res_point","type":"int32","length":4},{"name":"sides_2_win_score_point","type":"int32","length":4},{"name":"sides_2_res_holds_1_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_1_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_2_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_2_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_3_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_3_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_4_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_4_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_5_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_5_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_6_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_6_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_7_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_7_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_8_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_8_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_9_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_9_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_10_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_10_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_11_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_11_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_12_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_12_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_13_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_13_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_14_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_14_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_15_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_15_res_inc_speed","type":"int32","length":4},{"name":"sides_2_res_holds_16_id_res","type":"int32","length":4},{"name":"sides_2_res_holds_16_res_inc_speed","type":"int32","length":4},{"name":"sides_2_id_reward_win","type":"int32","length":4},{"name":"sides_2_id_reward_lose","type":"int32","length":4},{"name":"sides_2_id_reward_deuce","type":"int32","length":4},{"name":"sides_2_start_area_min_1","type":"float","length":4},{"name":"sides_2_start_area_min_2","type":"float","length":4},{"name":"sides_2_start_area_min_3","type":"float","length":4},{"name":"sides_2_start_area_max_1","type":"float","length":4},{"name":"sides_2_start_area_max_2","type":"float","length":4},{"name":"sides_2_start_area_max_3","type":"float","length":4},{"name":"sides_2_battle_point_task_award_1","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_2","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_3","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_4","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_5","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_6","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_7","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_8","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_9","type":"int32","length":4},{"name":"sides_2_battle_point_task_award_10","type":"int32","length":4},{"name":"sides_2_battle_point_1","type":"int32","length":4},{"name":"sides_2_battle_point_2","type":"int32","length":4},{"name":"sides_2_battle_point_3","type":"int32","length":4},{"name":"sides_2_battle_point_4","type":"int32","length":4},{"name":"sides_2_battle_point_5","type":"int32","length":4},{"name":"sides_2_battle_point_6","type":"int32","length":4},{"name":"sides_2_battle_point_7","type":"int32","length":4},{"name":"sides_2_battle_point_8","type":"int32","length":4},{"name":"sides_2_battle_point_9","type":"int32","length":4},{"name":"sides_2_battle_point_10","type":"int32","length":4},{"name":"sides_2_init_battle_point","type":"int32","length":4},{"name":"sides_2_fail_battle_point","type":"int32","length":4},{"name":"sides_2_need_repu_id","type":"int32","length":4},{"name":"sides_2_need_repu_amount","type":"int32","length":4},{"name":"sides_2_drop_repu_decay_base","type":"int32","length":4},{"name":"wait_time","type":"int32","length":4},{"name":"balance_popu","type":"int32","length":4},{"name":"auto_assign_side","type":"int32","length":4},{"name":"popu_ratio","type":"float","length":4},{"name":"team_mode","type":"int32","length":4},{"name":"family_mode","type":"int32","length":4},{"name":"faction_mode","type":"int32","length":4}]}
+{
+  "name": "INSTANCE_CONFIG",
+  "id": "120",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "pvp_type", "type": "int32", "length": 4 },
+    { "name": "world_index", "type": "int32", "length": 4 },
+    { "name": "inst_time", "type": "int32", "length": 4 },
+    { "name": "inst_revive_time", "type": "int32", "length": 4 },
+    { "name": "max_copy_num", "type": "int32", "length": 4 },
+    { "name": "midway_join", "type": "int32", "length": 4 },
+    { "name": "zero_player_time", "type": "int32", "length": 4 },
+    { "name": "min_player_num", "type": "int32", "length": 4 },
+    { "name": "min_player_time", "type": "int32", "length": 4 },
+    { "name": "play_type", "type": "int32", "length": 4 },
+    { "name": "monster_lvl_adjust", "type": "int32", "length": 4 },
+    { "name": "win_def_time", "type": "int32", "length": 4 },
+    { "name": "lose_pve", "type": "int32", "length": 4 },
+    { "name": "id_global_ctrl", "type": "int32", "length": 4 },
+    { "name": "id_ctrl_prep", "type": "int32", "length": 4 },
+    { "name": "id_ctrl_begin", "type": "int32", "length": 4 },
+    { "name": "id_ctrl_end", "type": "int32", "length": 4 },
+    { "name": "score_task_ids_1", "type": "int32", "length": 4 },
+    { "name": "score_task_ids_2", "type": "int32", "length": 4 },
+    { "name": "score_task_ids_3", "type": "int32", "length": 4 },
+    { "name": "score_task_ids_4", "type": "int32", "length": 4 },
+    { "name": "score_task_ids_5", "type": "int32", "length": 4 },
+    { "name": "score_awards_1", "type": "int32", "length": 4 },
+    { "name": "score_awards_2", "type": "int32", "length": 4 },
+    { "name": "score_awards_3", "type": "int32", "length": 4 },
+    { "name": "score_awards_4", "type": "int32", "length": 4 },
+    { "name": "score_awards_5", "type": "int32", "length": 4 },
+    { "name": "max_spectator_num", "type": "int32", "length": 4 },
+    { "name": "id_spectator_item", "type": "int32", "length": 4 },
+    { "name": "no_spectator_min_x", "type": "int32", "length": 4 },
+    { "name": "no_spectator_min_y", "type": "int32", "length": 4 },
+    { "name": "no_spectator_min_z", "type": "int32", "length": 4 },
+    { "name": "no_spectator_max_x", "type": "int32", "length": 4 },
+    { "name": "no_spectator_max_y", "type": "int32", "length": 4 },
+    { "name": "no_spectator_max_z", "type": "int32", "length": 4 },
+    { "name": "sides_1_max_player", "type": "int32", "length": 4 },
+    { "name": "sides_1_start_player_num", "type": "int32", "length": 4 },
+    { "name": "sides_1_close_player_num", "type": "int32", "length": 4 },
+    { "name": "sides_1_min_level_req", "type": "int32", "length": 4 },
+    { "name": "sides_1_max_level_req", "type": "int32", "length": 4 },
+    { "name": "sides_1_max_prof_player", "type": "int32", "length": 4 },
+    { "name": "sides_1_req_camp", "type": "int32", "length": 4 },
+    { "name": "sides_1_req_item", "type": "int32", "length": 4 },
+    { "name": "sides_1_req_money", "type": "int32", "length": 4 },
+    { "name": "sides_1_enter_pos", "type": "int32", "length": 4 },
+    { "name": "sides_1_def_revive_pos", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_1", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_2", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_3", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_4", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_5", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_6", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_7", "type": "int32", "length": 4 },
+    { "name": "sides_1_revive_pos_8", "type": "int32", "length": 4 },
+    { "name": "sides_1_monster_dummy", "type": "int32", "length": 4 },
+    { "name": "sides_1_loot_dummy", "type": "int32", "length": 4 },
+    { "name": "sides_1_task_1", "type": "int32", "length": 4 },
+    { "name": "sides_1_task_2", "type": "int32", "length": 4 },
+    { "name": "sides_1_task_3", "type": "int32", "length": 4 },
+    { "name": "sides_1_task_4", "type": "int32", "length": 4 },
+    { "name": "sides_1_task_5", "type": "int32", "length": 4 },
+    { "name": "sides_1_win_kill_monster", "type": "int32", "length": 4 },
+    { "name": "sides_1_win_res_point", "type": "int32", "length": 4 },
+    { "name": "sides_1_win_score_point", "type": "int32", "length": 4 },
+    { "name": "sides_1_res_holds_1_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_1_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_2_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_2_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_3_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_3_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_4_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_4_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_5_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_5_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_6_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_6_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_7_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_7_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_8_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_8_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_9_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_9_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_10_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_10_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_11_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_11_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_12_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_12_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_13_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_13_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_14_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_14_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_15_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_15_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_res_holds_16_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_1_res_holds_16_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_id_reward_win", "type": "int32", "length": 4 },
+    { "name": "sides_1_id_reward_lose", "type": "int32", "length": 4 },
+    { "name": "sides_1_id_reward_deuce", "type": "int32", "length": 4 },
+    { "name": "sides_1_start_area_min_1", "type": "float", "length": 4 },
+    { "name": "sides_1_start_area_min_2", "type": "float", "length": 4 },
+    { "name": "sides_1_start_area_min_3", "type": "float", "length": 4 },
+    { "name": "sides_1_start_area_max_1", "type": "float", "length": 4 },
+    { "name": "sides_1_start_area_max_2", "type": "float", "length": 4 },
+    { "name": "sides_1_start_area_max_3", "type": "float", "length": 4 },
+    {
+      "name": "sides_1_battle_point_task_award_1",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_2",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_3",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_4",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_5",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_6",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_7",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_8",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_9",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_1_battle_point_task_award_10",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_1_battle_point_1", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_2", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_3", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_4", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_5", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_6", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_7", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_8", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_9", "type": "int32", "length": 4 },
+    { "name": "sides_1_battle_point_10", "type": "int32", "length": 4 },
+    { "name": "sides_1_init_battle_point", "type": "int32", "length": 4 },
+    { "name": "sides_1_fail_battle_point", "type": "int32", "length": 4 },
+    { "name": "sides_1_need_repu_id", "type": "int32", "length": 4 },
+    { "name": "sides_1_need_repu_amount", "type": "int32", "length": 4 },
+    { "name": "sides_1_drop_repu_decay_base", "type": "int32", "length": 4 },
+    { "name": "sides_2_max_player", "type": "int32", "length": 4 },
+    { "name": "sides_2_start_player_num", "type": "int32", "length": 4 },
+    { "name": "sides_2_close_player_num", "type": "int32", "length": 4 },
+    { "name": "sides_2_min_level_req", "type": "int32", "length": 4 },
+    { "name": "sides_2_max_level_req", "type": "int32", "length": 4 },
+    { "name": "sides_2_max_prof_player", "type": "int32", "length": 4 },
+    { "name": "sides_2_req_camp", "type": "int32", "length": 4 },
+    { "name": "sides_2_req_item", "type": "int32", "length": 4 },
+    { "name": "sides_2_req_money", "type": "int32", "length": 4 },
+    { "name": "sides_2_enter_pos", "type": "int32", "length": 4 },
+    { "name": "sides_2_def_revive_pos", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_1", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_2", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_3", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_4", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_5", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_6", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_7", "type": "int32", "length": 4 },
+    { "name": "sides_2_revive_pos_8", "type": "int32", "length": 4 },
+    { "name": "sides_2_monster_dummy", "type": "int32", "length": 4 },
+    { "name": "sides_2_loot_dummy", "type": "int32", "length": 4 },
+    { "name": "sides_2_task_1", "type": "int32", "length": 4 },
+    { "name": "sides_2_task_2", "type": "int32", "length": 4 },
+    { "name": "sides_2_task_3", "type": "int32", "length": 4 },
+    { "name": "sides_2_task_4", "type": "int32", "length": 4 },
+    { "name": "sides_2_task_5", "type": "int32", "length": 4 },
+    { "name": "sides_2_win_kill_monster", "type": "int32", "length": 4 },
+    { "name": "sides_2_win_res_point", "type": "int32", "length": 4 },
+    { "name": "sides_2_win_score_point", "type": "int32", "length": 4 },
+    { "name": "sides_2_res_holds_1_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_1_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_2_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_2_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_3_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_3_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_4_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_4_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_5_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_5_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_6_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_6_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_7_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_7_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_8_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_8_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_9_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_9_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_10_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_10_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_11_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_11_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_12_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_12_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_13_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_13_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_14_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_14_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_15_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_15_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_res_holds_16_id_res", "type": "int32", "length": 4 },
+    {
+      "name": "sides_2_res_holds_16_res_inc_speed",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_id_reward_win", "type": "int32", "length": 4 },
+    { "name": "sides_2_id_reward_lose", "type": "int32", "length": 4 },
+    { "name": "sides_2_id_reward_deuce", "type": "int32", "length": 4 },
+    { "name": "sides_2_start_area_min_1", "type": "float", "length": 4 },
+    { "name": "sides_2_start_area_min_2", "type": "float", "length": 4 },
+    { "name": "sides_2_start_area_min_3", "type": "float", "length": 4 },
+    { "name": "sides_2_start_area_max_1", "type": "float", "length": 4 },
+    { "name": "sides_2_start_area_max_2", "type": "float", "length": 4 },
+    { "name": "sides_2_start_area_max_3", "type": "float", "length": 4 },
+    {
+      "name": "sides_2_battle_point_task_award_1",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_2",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_3",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_4",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_5",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_6",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_7",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_8",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_9",
+      "type": "int32",
+      "length": 4
+    },
+    {
+      "name": "sides_2_battle_point_task_award_10",
+      "type": "int32",
+      "length": 4
+    },
+    { "name": "sides_2_battle_point_1", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_2", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_3", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_4", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_5", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_6", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_7", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_8", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_9", "type": "int32", "length": 4 },
+    { "name": "sides_2_battle_point_10", "type": "int32", "length": 4 },
+    { "name": "sides_2_init_battle_point", "type": "int32", "length": 4 },
+    { "name": "sides_2_fail_battle_point", "type": "int32", "length": 4 },
+    { "name": "sides_2_need_repu_id", "type": "int32", "length": 4 },
+    { "name": "sides_2_need_repu_amount", "type": "int32", "length": 4 },
+    { "name": "sides_2_drop_repu_decay_base", "type": "int32", "length": 4 },
+    { "name": "wait_time", "type": "int32", "length": 4 },
+    { "name": "balance_popu", "type": "int32", "length": 4 },
+    { "name": "auto_assign_side", "type": "int32", "length": 4 },
+    { "name": "popu_ratio", "type": "float", "length": 4 },
+    { "name": "team_mode", "type": "int32", "length": 4 },
+    { "name": "family_mode", "type": "int32", "length": 4 },
+    { "name": "faction_mode", "type": "int32", "length": 4 }
+  ]
+}

@@ -1,1 +1,14 @@
-{"name":"EQ Addons","id":"001","offset":12,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"Type","type":"int32","length":4},{"name":"AddonAmount","type":"int32","length":4},{"name":"Addon1","type":"int32","length":4},{"name":"Addon2","type":"int32","length":4},{"name":"Addon3","type":"int32","length":4}]}
+{
+  "name": "EQ Addons",
+  "id": "001",
+  "offset": 12,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "Type", "type": "int32", "length": 4 },
+    { "name": "AddonAmount", "type": "int32", "length": 4 },
+    { "name": "Addon1", "type": "int32", "length": 4 },
+    { "name": "Addon2", "type": "int32", "length": 4 },
+    { "name": "Addon3", "type": "int32", "length": 4 }
+  ]
+}

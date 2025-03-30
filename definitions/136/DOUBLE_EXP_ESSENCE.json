@@ -1,1 +1,18 @@
-{"name":"DOUBLE_EXP_ESSENCE","id":"099","offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"file_matter","type":"int32","length":4},{"name":"file_icon","type":"int32","length":4},{"name":"type_mask","type":"int32","length":4},{"name":"coefficient","type":"float","length":4},{"name":"double_exp_time","type":"int32","length":4},{"name":"price","type":"int32","length":4},{"name":"shop_price","type":"int32","length":4},{"name":"pile_num_max","type":"int32","length":4},{"name":"proc_type","type":"int32","length":4}]}
+{
+  "name": "DOUBLE_EXP_ESSENCE",
+  "id": "099",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "file_matter", "type": "int32", "length": 4 },
+    { "name": "file_icon", "type": "int32", "length": 4 },
+    { "name": "type_mask", "type": "int32", "length": 4 },
+    { "name": "coefficient", "type": "float", "length": 4 },
+    { "name": "double_exp_time", "type": "int32", "length": 4 },
+    { "name": "price", "type": "int32", "length": 4 },
+    { "name": "shop_price", "type": "int32", "length": 4 },
+    { "name": "pile_num_max", "type": "int32", "length": 4 },
+    { "name": "proc_type", "type": "int32", "length": 4 }
+  ]
+}

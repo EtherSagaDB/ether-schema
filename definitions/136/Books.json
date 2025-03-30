@@ -1,1 +1,18 @@
-{"name":"Books","id":"041","offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"PathIDMatter","type":"int32","length":4},{"name":"PathIDIcon","type":"int32","length":4},{"name":"Disappear","type":"int32","length":4},{"name":"MaxPage","type":"int32","length":4},{"name":"Page","type":"string","length":512,"repeat":32},{"name":"Price","type":"int32","length":4},{"name":"ShopPrice","type":"int32","length":4},{"name":"StackAmount","type":"int32","length":4},{"name":"Proctype","type":"int32","length":4}]}
+{
+  "name": "Books",
+  "id": "041",
+  "offset": 4,
+  "fields": [
+    { "name": "ID", "type": "int32", "length": 4 },
+    { "name": "Name", "type": "string", "length": 64 },
+    { "name": "PathIDMatter", "type": "int32", "length": 4 },
+    { "name": "PathIDIcon", "type": "int32", "length": 4 },
+    { "name": "Disappear", "type": "int32", "length": 4 },
+    { "name": "MaxPage", "type": "int32", "length": 4 },
+    { "name": "Page", "type": "string", "length": 512, "repeat": 32 },
+    { "name": "Price", "type": "int32", "length": 4 },
+    { "name": "ShopPrice", "type": "int32", "length": 4 },
+    { "name": "StackAmount", "type": "int32", "length": 4 },
+    { "name": "Proctype", "type": "int32", "length": 4 }
+  ]
+}
