@@ -1,0 +1,1 @@
+{"name":"NPC_EQUIPDESTROY_SERVICE","id":"102","offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"id_object_need","type":"int32","length":4},{"name":"price","type":"int32","length":4}]}
