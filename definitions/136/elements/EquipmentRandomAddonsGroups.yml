@@ -1,0 +1,17 @@
+name: Equipment Random Addons Groups
+id: 121
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Addons
+    type: Array
+    length: 48
+    fields:
+      - name: ID
+        type: Int32
+      - name: Probability
+        type: Float

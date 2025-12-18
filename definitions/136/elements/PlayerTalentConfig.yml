@@ -1,0 +1,15 @@
+name: Player Talent Config
+id: 118
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Talent Points
+    type: Array
+    length: 200
+    fields:
+      - name: Value
+        type: Int32

@@ -1,0 +1,11 @@
+name: NPC Heal Service
+id: 67
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Dialogue ID
+    type: Int32

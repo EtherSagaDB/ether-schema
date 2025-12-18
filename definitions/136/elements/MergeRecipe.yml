@@ -1,0 +1,55 @@
+name: Merge Recipe
+id: 31
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Keep Time Prop
+    type: Int32
+  - name: Keep Bind Prop
+    type: Int32
+  - name: Keep Refine Prop
+    type: Int32
+  - name: Keep PStone Prop
+    type: Int32
+  - name: Craft Probabilities
+    type: Array
+    length: 4
+    fields:
+      - name: Probability
+        type: Float
+      - name: Items
+        type: Array
+        length: 2
+        fields:
+          - name: ID
+            type: Int32
+          - name: Amount
+            type: Int32
+  - name: Requirements
+    type: Array
+    length: 6
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+      - name: Rank
+        type: Int32
+  - name: Base Probability
+    type: Float
+  - name: Fee
+    type: Int32
+  - name: Helpers
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+      - name: Probability
+        type: Float
+  - name: Recipe ID
+    type: Int32

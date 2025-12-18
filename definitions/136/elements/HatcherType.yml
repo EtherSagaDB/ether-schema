@@ -1,0 +1,9 @@
+name: Hatcher Type
+id: 39
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64

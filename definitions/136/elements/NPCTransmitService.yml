@@ -1,0 +1,31 @@
+name: NPC Transmit Service
+id: 68
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Teleport Locations
+    type: Array
+    length: 16
+    fields:
+      - name: World ID
+        type: Int32
+      - name: Name
+        type: String
+        subtype: Fixed
+        length: 32
+      - name: X
+        type: Float
+      - name: Y
+        type: Float
+      - name: Z
+        type: Float
+      - name: Fee
+        type: Int32
+      - name: Required Level
+        type: Int32
+  - name: Dialogue ID
+    type: Int32

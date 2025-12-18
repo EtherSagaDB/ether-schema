@@ -1,0 +1,137 @@
+name: Pet Badge
+id: 27
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Path ID Icon Unidentified
+    type: Int32
+  - name: Path ID Head Icons
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+  - name: Path ID Model
+    type: Array
+    length: 16
+    fields:
+      - name: ID
+        type: Int32
+  - name: Size
+    type: Float
+  - name: Pet Type
+    type: Int32
+  - name: Pet Food
+    type: Int32
+  - name: Level
+    type: Int32
+  - name: Life
+    type: Int32
+  - name: Faint
+    type: Int32
+  - name: Exp Lvlup ID
+    type: Int32
+  - name: Init Evaluation
+    type: Int32
+  - name: Fight Type
+    type: Int32
+  - name: Monster Faction
+    type: Int32
+  - name: Summon MP Used
+    type: Int32
+  - name: Combine MP Used
+    type: Int32
+  - name: MP Per Second
+    type: Int32
+  - name: Combine Skill
+    type: Int32
+  - name: Merge SP Consume
+    type: Int32
+  - name: Sight Range
+    type: Float
+  - name: Attack Range
+    type: Float
+  - name: Aggro Range
+    type: Float
+  - name: Aggro Time
+    type: Float
+  - name: Stand Mode
+    type: Int32
+  - name: Walk Speed
+    type: Float
+  - name: Run Speed
+    type: Float
+  - name: Max Skills
+    type: Int32
+  - name: Min Skills
+    type: Int32
+  - name: HP Generations
+    type: Array
+    length: 2
+    fields:
+      - name: HP Generation
+        type: Int32
+  - name: Faint Gen Time
+    type: Int32
+  - name: Faint Gen Speed
+    type: Float
+  - name: Meld Values
+    type: Array
+    length: 18
+    fields:
+      - name: Prop Value
+        type: Float
+      - name: Value Var
+        type: Float
+      - name: Merge Value Max
+        type: Float
+      - name: P Value
+        type: Float
+      - name: P Value Var
+        type: Float
+      - name: Merge P Value Max
+        type: Float
+  - name: Pet Skills
+    type: Array
+    length: 2
+    fields:
+      - name: ID
+        type: Int32
+      - name: Level
+        type: Int32
+  - name: Pet Meld Addons
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+  - name: Description
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: HP Grow Average
+    type: Int32
+  - name: Phy Dmg Grow Average
+    type: Int32
+  - name: Magic Dmg Grow Average
+    type: Int32
+  - name: Phy Defence Grow Average
+    type: Int32
+  - name: Magic Defence Grow Average
+    type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

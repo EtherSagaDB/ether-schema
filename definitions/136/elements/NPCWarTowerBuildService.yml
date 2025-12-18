@@ -1,0 +1,6 @@
+name: NPC War Tower Build Service
+id: 87
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 148

@@ -1,0 +1,319 @@
+name: Character Class Config
+id: 77
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  # Class ID is the index of the class.
+  - name: Class ID
+    type: Int32
+  - name: Faction
+    type: Int32
+  - name: Enemy Faction
+    type: Int32
+  - name: Level Requirement
+    type: Int32
+  - name: Sect Mask
+    type: Int32
+  - name: Level
+    type: Int32
+  - name: Attack Skill
+    type: Int32
+  - name: Attack Range
+    type: Float
+  - name: Pet Rank
+    type: Float
+  - name: Pet Adapt
+    type: Int32
+  - name: HP
+    type: Int32
+  - name: MP
+    type: Int32
+  - name: Anger
+    type: Int32
+  - name: VP
+    type: Int32
+  - name: Faint
+    type: Int32
+  - name: Physical Damage
+    type: Int32
+  - name: Magical Damage
+    type: Int32
+  - name: Physical Defense
+    type: Int32
+  - name: Magical Defense
+    type: Int32
+  - name: Attack
+    type: Int32
+  - name: Armor
+    type: Int32
+  - name: Physical Crit Rate
+    type: Float
+  - name: Physical Crit Damage
+    type: Float
+  - name: Magical Crit Rate
+    type: Float
+  - name: Magical Crit Damage
+    type: Float
+  - name: Anti-Physical
+    type: Int32
+  - name: Anti-Gold
+    type: Int32
+  - name: Anti-Wood
+    type: Int32
+  - name: Anti-Water
+    type: Int32
+  - name: Anti-Fire
+    type: Int32
+  - name: Anti-Earth
+    type: Int32
+  - name: Anti-None
+    type: Int32
+  - name: Vitality
+    type: Int32
+  - name: Intelligence
+    type: Int32
+  - name: Strength
+    type: Int32
+  - name: Agility
+    type: Int32
+  # no clue what p5th is
+  - name: p5th
+    type: Int32
+  - name: LevelUp Pet Adapt
+    type: Float
+  - name: LevelUp Pet Rank
+    type: Float
+  - name: LevelUp HP
+    type: Float
+  - name: LevelUp MP
+    type: Float
+  - name: LevelUp Anger
+    type: Float
+  - name: LevelUp VP
+    type: Float
+  - name: LevelUp Faint
+    type: Float
+  - name: LevelUp Physical Damage
+    type: Float
+  - name: LevelUp Magical Damage
+    type: Float
+  - name: LevelUp Physical Defense
+    type: Float
+  - name: LevelUp Magical Defense
+    type: Float
+  - name: LevelUp Attack
+    type: Float
+  - name: LevelUp Armor
+    type: Float
+  - name: LevelUp Physical Crit Rate
+    type: Float
+  - name: LevelUp Physical Crit Damage
+    type: Float
+  - name: LevelUp Magical Crit Rate
+    type: Float
+  - name: LevelUp Magical Crit Damage
+    type: Float
+  - name: LevelUp Anti-Physical
+    type: Float
+  - name: LevelUp Anti-Gold
+    type: Float
+  - name: LevelUp Anti-Wood
+    type: Float
+  - name: LevelUp Anti-Water
+    type: Float
+  - name: LevelUp Anti-Fire
+    type: Float
+  - name: LevelUp Anti-Earth
+    type: Float
+  - name: LevelUp Anti-None
+    type: Float
+  - name: walk_speed
+    type: Float
+  - name: run_speed
+    type: Float
+  - name: riding_speed
+    type: Float
+  - name: HP Generation
+    type: Array
+    length: 4
+    fields:
+      - name: Value
+        type: Int32
+  - name: MP Generation
+    type: Array
+    length: 4
+    fields:
+      - name: Value
+        type: Int32
+  - name: Anger Generation
+    type: Array
+    length: 2
+    fields:
+      - name: Value
+        type: Int32
+  - name: VP Generation Time
+    type: Int32
+  - name: VP Generation Speed
+    type: Float
+  - name: Faint Generation Time
+    type: Int32
+  - name: Faint Generation Speed
+    type: Float
+  - name: Player Status Point ID
+    type: Int32
+  - name: Character Combo ID
+    type: Int32
+  - name: p6th
+    type: Int32
+  - name: p7th
+    type: Int32
+  - name: p8th
+    type: Int32
+  - name: p9th
+    type: Int32
+  - name: p10th
+    type: Int32
+  - name: Anti-Gold 2
+    type: Int32
+  - name: Anti-Wood 2
+    type: Int32
+  - name: Anti-Water 2
+    type: Int32
+  - name: Anti-Fire 2
+    type: Int32
+  - name: Anti-Earth 2
+    type: Int32
+  - name: Anti-Physical 2
+    type: Int32
+  - name: Anti-None 2
+    type: Int32
+  - name: Anti-Physical Crit Rate 2
+    type: Float
+  - name: Anti-Physical Crit Damage 2
+    type: Float
+  - name: Anti-Magical Crit Rate 2
+    type: Float
+  - name: Anti-Magical Crit Damage 2
+    type: Float
+  - name: Poison Rate
+    type: Float
+  - name: Injure Rate
+    type: Float
+  - name: Stun Rate
+    type: Float
+  - name: Sleep Rate
+    type: Float
+  - name: Immobilise Rate
+    type: Float
+  - name: Slow Rate
+    type: Float
+  - name: Silence Rate
+    type: Float
+  - name: Blind Rate
+    type: Float
+  - name: Weaken Rate
+    type: Float
+  - name: Immunity Rate
+    type: Float
+  - name: Beatback Rate
+    type: Float
+  - name: Reserve Rate
+    type: Float
+  - name: Anti-Poison Rate
+    type: Float
+  - name: Anti-Injure Rate
+    type: Float
+  - name: Anti-Stun Rate
+    type: Float
+  - name: Anti-Sleep Rate
+    type: Float
+  - name: Anti-Immobilise Rate
+    type: Float
+  - name: Anti-Slow Rate
+    type: Float
+  - name: Anti-Silence Rate
+    type: Float
+  - name: Anti-Blind Rate
+    type: Float
+  - name: Anti-Weaken Rate
+    type: Float
+  - name: Anti-Immunity Rate
+    type: Float
+  - name: Anti-Beatback Rate
+    type: Float
+  - name: Anti-Reserve Rate
+    type: Float
+  - name: LevelUp Anti-Gold 2
+    type: Float
+  - name: LevelUp Anti-Wood 2
+    type: Float
+  - name: LevelUp Anti-Water 2
+    type: Float
+  - name: LevelUp Anti-Fire 2
+    type: Float
+  - name: LevelUp Anti-Earth 2
+    type: Float
+  - name: LevelUp Anti-Physical 2
+    type: Float
+  - name: LevelUp Anti-None 2
+    type: Float
+  - name: LevelUp Anti-Physical Crit Rate
+    type: Float
+  - name: LevelUp Anti-Physical Crit Damage
+    type: Float
+  - name: LevelUp Anti-Magical Crit Rate
+    type: Float
+  - name: LevelUp Anti-Magical Crit Damage
+    type: Float
+  - name: LevelUp Poison Rate
+    type: Float
+  - name: LevelUp Injure Rate
+    type: Float
+  - name: LevelUp Stun Rate
+    type: Float
+  - name: LevelUp Sleep Rate
+    type: Float
+  - name: LevelUp Immobilise Rate
+    type: Float
+  - name: LevelUp Slow Rate
+    type: Float
+  - name: LevelUp Silence Rate
+    type: Float
+  - name: LevelUp Blind Rate
+    type: Float
+  - name: LevelUp Weaken Rate
+    type: Float
+  - name: LevelUp Immunity Rate
+    type: Float
+  - name: LevelUp Beatback Rate
+    type: Float
+  - name: LevelUp Reserve Rate
+    type: Float
+  - name: LevelUp Anti-Poison Rate
+    type: Float
+  - name: LevelUp Anti-Injure Rate
+    type: Float
+  - name: LevelUp Anti-Stun Rate
+    type: Float
+  - name: LevelUp Anti-Sleep Rate
+    type: Float
+  - name: LevelUp Anti-Immobilise Rate
+    type: Float
+  - name: LevelUp Anti-Slow Rate
+    type: Float
+  - name: LevelUp Anti-Silence Rate
+    type: Float
+  - name: LevelUp Anti-Blind Rate
+    type: Float
+  - name: LevelUp Anti-Weaken Rate
+    type: Float
+  - name: LevelUp Anti-Immunity Rate
+    type: Float
+  - name: LevelUp Anti-Beatback Rate
+    type: Float
+  - name: LevelUp Anti-Reserve Rate
+    type: Float

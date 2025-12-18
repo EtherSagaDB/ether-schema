@@ -1,0 +1,33 @@
+name: Pet Food
+id: 28
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Pet Level Requirement
+    type: Int32
+  - name: Food Type
+    type: Int32
+  - name: Food Usage
+    type: Int32
+  - name: Food Value
+    type: Int32
+  - name: Cool Time
+    type: Int32
+  - name: Use Once
+    type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

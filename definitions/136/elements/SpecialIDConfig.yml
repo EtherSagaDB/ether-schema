@@ -1,0 +1,116 @@
+name: Special ID Config
+id: 111
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: version
+    type: Int32
+  - name: Monster Drop Probability
+    type: Float
+  - name: Money Matter ID
+    type: Int32
+  - name: Speaker ID
+    type: Int32
+  - name: Destroying Matter ID
+    type: Int32
+  - name: Town Scroll ID
+    type: Int32
+  - name: Attacker Droptable ID
+    type: Int32
+  - name: Defender Droptable ID
+    type: Int32
+  - name: Talisman Reset Matter ID
+    type: Int32
+  - name: Talisman Merge Fee
+    type: Int32
+  - name: Talisman Enchant Fee
+    type: Int32
+  - name: Pet Adoption Fee
+    type: Int32
+  - name: Pet Identification Fee
+    type: Int32
+  - name: Pet Ressurection Fee
+    type: Int32
+  - name: Pet Reborn Fee
+    type: Int32
+  - name: Player Kill Tran Value
+    type: Int32
+  - name: Player Kill Tran Position X
+    type: Float
+  - name: Player Kill Tran Position Y
+    type: Float
+  - name: Player Kill Tran Position Z
+    type: Float
+  - name: Player Kill Curse ID
+    type: Int32
+  - name: Pet Adoption Scroll
+    type: Int32
+  - name: Pet Identification Scrolls
+    type: Array
+    length: 5
+    fields:
+      - name: ID
+        type: Int32
+  - name: Pet Revival Scroll
+    type: Int32
+  - name: Pet Bag Expansion ID
+    type: Int32
+  - name: Pet Skill Expansion ID
+    type: Int32
+  - name: Pet Quantity Expansion ID
+    type: Int32
+  - name: Pet Bind ID
+    type: Int32
+  - name: Pet Combine Quantity Expansion ID
+    type: Int32
+  - name: Pet Skill Forget ID
+    type: Int32
+  - name: Pet Rename Fee
+    type: Int32
+  - name: Pet Food Fee
+    type: Int32
+  - name: Pet Merge Fee
+    type: Int32
+  - name: Pet Bine Fee
+    type: Int32
+  - name: Pet Marriage Fee
+    type: Int32
+  - name: Pet Food ID
+    type: Int32
+  - name: Pet Merge ID
+    type: Int32
+  - name: Pet Marriage ID
+    type: Int32
+  - name: Special Pack Items
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+  - name: Fast Summon Item
+    type: Array
+    length: 2
+    fields:
+      - name: ID
+        type: Int32
+  - name: Fast Combine Item
+    type: Array
+    length: 2
+    fields:
+      - name: ID
+        type: Int32
+  - name: Speaker Level Num Config ID
+    type: Int32
+  - name: Speaker Num Money Config ID
+    type: Int32
+  - name: Birth Skill Candidate Config ID
+    type: Int32
+  - name: Garden Item Exchange Config ID
+    type: Int32
+  # I have no idea what this is
+  - name: Carryon BAGUA Consume ID
+    type: Int32

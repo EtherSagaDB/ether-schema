@@ -1,0 +1,6 @@
+name: Enemy Faction
+id: 76
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 196

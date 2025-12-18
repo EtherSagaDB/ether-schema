@@ -1,0 +1,45 @@
+name: Vehicle Essence
+id: 106
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Model
+    type: Int32
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Level Requirement
+    type: Int32
+  - name: War Only
+    type: Int32
+  - name: Speed
+    type: Float
+  - name: Height
+    type: Float
+  - name: Action
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Can Attack
+    type: Int32
+  - name: Addons
+    type: Array
+    length: 5
+    fields:
+      - name: ID
+        type: Int32
+      - name: Level
+        type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

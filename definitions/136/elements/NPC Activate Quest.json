@@ -1,1 +1,0 @@
-{"name":"NPC Activate Quest","id":65,"offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"TaskSet","type":"int32","length":4},{"name":"TaskID","type":"int32","length":4,"repeat":256}]}

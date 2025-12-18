@@ -1,0 +1,43 @@
+name: Garden Ornaments
+id: 44
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Icon
+    type: Int32
+  - name: Hanger Index
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Garden Level Min
+    type: Int32
+  - name: Level
+    type: Int32
+  - name: Path ID Model
+    type: Int32
+  - name: Exp Time
+    type: Int32
+  - name: Exp Ratio
+    type: Int32
+  - name: Extra Exp
+    type: Int32
+  - name: Bag Shape
+    type: String
+    subtype: Fixed
+    length: 8
+  - name: Bag Colour
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Sell Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

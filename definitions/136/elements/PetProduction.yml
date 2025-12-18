@@ -1,0 +1,37 @@
+name: Pet Production
+id: 36
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Level
+    type: Int32
+  - name: Probabilities
+    type: Array
+    length: 64
+    fields:
+      - name: Probability
+        type: Float
+      - name: Item ID
+        type: Int32
+      - name: Min Amount
+        type: Int32
+      - name: Max Amount
+        type: Int32
+  - name: Materials
+    type: Array
+    length: 8
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+  - name: Pet Produce Type
+    type: Int32
+  - name: Proficiency Need
+    type: Int32
+  - name: Proficiency Got
+    type: Int32

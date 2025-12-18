@@ -1,0 +1,77 @@
+name: Seeds
+id: 45
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Icon
+    type: Int32
+  - name: Level
+    type: Int32
+  - name: Garden Lvl Min
+    type: Int32
+  - name: Season Num
+    type: Int32
+  - name: Stage Model Times
+    type: Array
+    length: 5
+    fields:
+      - name: Time
+        type: Int32
+      - name: Path ID Model
+        type: Int32
+  - name: Path ID Wither Model
+    type: Int32
+  - name: Protect Time
+    type: Int32
+  - name: Output Min
+    type: Int32
+  - name: Output Max
+    type: Int32
+  - name: Harvest Exp
+    type: Int32
+  - name: Harvest Money
+    type: Int32
+  - name: Steal Exp
+    type: Int32
+  - name: Steal Money
+    type: Int32
+  - name: Water Exp
+    type: Int32
+  - name: Water Money
+    type: Int32
+  - name: Weed Exp
+    type: Int32
+  - name: Weed Money
+    type: Int32
+  - name: Deworm Exp
+    type: Int32
+  - name: Deworm Money
+    type: Int32
+  - name: Seed Exp
+    type: Int32
+  - name: Seed Money
+    type: Int32
+  - name: Plow Exp
+    type: Int32
+  - name: Plow Money
+    type: Int32
+  - name: Steal Ratio
+    type: Float
+  - name: Min Per Steal
+    type: Int32
+  - name: Max Per Steal
+    type: Int32
+  - name: Sell Price
+    type: Int32
+  - name: Buy Price
+    type: Int32
+  - name: Fruit ID
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

@@ -1,0 +1,15 @@
+name: Petbox EXP List Config
+id: 47
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Experience Gains
+    type: Array
+    length: 200
+    fields:
+      - name: Experience
+        type: Int32

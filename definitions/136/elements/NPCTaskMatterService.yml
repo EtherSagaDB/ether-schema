@@ -1,0 +1,23 @@
+name: NPC Task Matter Service
+id: 66
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Tasks
+    type: Array
+    length: 16
+    fields:
+      - name: ID
+        type: Int32
+      - name: Items
+        type: Array
+        length: 4
+        fields:
+          - name: ID
+            type: Int32
+          - name: Amount
+            type: Int32

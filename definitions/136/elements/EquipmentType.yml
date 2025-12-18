@@ -1,0 +1,9 @@
+name: Equipment Type
+id: 2
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64

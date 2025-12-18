@@ -1,0 +1,127 @@
+name: Change Shape
+id: 25
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Collection
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Path ID Model
+    type: Int32
+  - name: Description
+    type: String
+    subtype: Fixed
+    length: 512
+  - name: Valid Time
+    type: Int32
+  - name: Level Requirement
+    type: Int32
+  - name: Stand Mode
+    type: Int32
+  - name: Monster Race
+    type: Int32
+  - name: Advantage Param
+    type: Float
+  - name: Used VP
+    type: Int32
+  - name: Used Time
+    type: Int32
+  - name: Height
+    type: Float
+  - name: Speed
+    type: Float
+  - name: Can Attack
+    type: Int32
+  - name: Hide Name
+    type: Int32
+  - name: Can Fly
+    type: Int32
+  - name: Aircraft ID
+    type: Int32
+  - name: Buff Actions
+    type: Array
+    length: 3
+    fields:
+      - name: Buff Action
+        type: String
+        subtype: Fixed
+        length: 32
+  - name: Debuff Actions
+    type: Array
+    length: 3
+    fields:
+      - name: Debuff Action
+        type: String
+        subtype: Fixed
+        length: 32
+  - name: Attack Actions
+    type: Array
+    length: 3
+    fields:
+      - name: Attack Action
+        type: String
+        subtype: Fixed
+        length: 32
+  - name: Required Shapes
+    type: Array
+    length: 3
+    fields:
+      - name: Required Shape
+        type: Int32
+  - name: Addon Skills
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+      - name: Level
+        type: Int32
+  - name: Addons
+    type: Array
+    length: 6
+    fields:
+      - name: Addon
+        type: Int32
+  - name: Pet Evaluation
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+      - name: Evaluation
+        type: Int32
+  - name: Pet Skills
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+      - name: Level
+        type: Int32
+  - name: Pet Race Evaluation
+    type: Int32
+  - name: Pet Race
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+      - name: Level
+        type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

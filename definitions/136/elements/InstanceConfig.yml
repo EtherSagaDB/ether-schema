@@ -1,0 +1,181 @@
+name: Instance Config
+id: 120
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: PVP Type
+    type: Int32
+  - name: World Index
+    type: Int32
+  - name: Instance Duration
+    type: Int32
+  - name: Instance Revive Duration
+    type: Int32
+  - name: Max Copy Quantity
+    type: Int32
+  - name: In Progress Join
+    type: Int32
+  - name: Zero Player Time
+    type: Int32
+  - name: Minimum Player Quantity
+    type: Int32
+  - name: Minimum Player Time
+    type: Int32
+  - name: Play Type
+    type: Int32
+  - name: Monster Level Adjustment
+    type: Int32
+  - name: Win Defense Time
+    type: Int32
+  - name: PVE Loss
+    type: Int32
+  - name: Global Controller ID
+    type: Int32
+  - name: Controller Preparation ID
+    type: Int32
+  - name: Controller Begin ID
+    type: Int32
+  - name: Controller End ID
+    type: Int32
+  - name: Score Tasks
+    type: Array
+    length: 5
+    fields:
+      - name: ID
+        type: Int32
+  - name: Score Awards
+    type: Array
+    length: 5
+    fields:
+      - name: Value
+        type: Int32
+  - name: Max Spectator Quantity
+    type: Int32
+  - name: Spectator Item ID
+    type: Int32
+  - name: No Spectator Minimum X
+    type: Int32
+  - name: No Spectator Minimum Y
+    type: Int32
+  - name: No Spectator Minimum Z
+    type: Int32
+  - name: No Spectator Maximum X
+    type: Int32
+  - name: No Spectator Maximum Y
+    type: Int32
+  - name: No Spectator Maximum Z
+    type: Int32
+  - name: Sides
+    type: Array
+    length: 2
+    fields:
+      - name: Max Players
+        type: Int32
+      - name: Starting Player Quantity
+        type: Int32
+      - name: Closing Player Quantity
+        type: Int32
+      - name: Minimum Level Requirement
+        type: Int32
+      - name: Max Level Requirement
+        type: Int32
+      - name: Max Prof Players
+        type: Int32
+      - name: Required Camp
+        type: Int32
+      - name: Required Item
+        type: Int32
+      - name: Required Money
+        type: Int32
+      - name: Initial Spawn Position
+        type: Int32
+      - name: Defense Revive Position
+        type: Int32
+      - name: Revive Positions
+        type: Array
+        length: 8
+        fields:
+          - name: Position
+            type: Int32
+      - name: Dummy Monster
+        type: Int32
+      - name: Dummy Loot
+        type: Int32
+      - name: Tasks
+        type: Array
+        length: 5
+        fields:
+          - name: ID
+            type: Int32
+      - name: Win Kill Monster
+        type: Int32
+      - name: Win Respawn Point
+        type: Int32
+      - name: Win Score Point
+        type: Int32
+      - name: Respawn Holds
+        type: Array
+        length: 16
+        fields:
+          - name: Respawn ID
+            type: Int32
+          - name: Respawn Incoming Speed
+            type: Int32
+      - name: Win Reward ID
+        type: Int32
+      - name: Lose Reward ID
+        type: Int32
+      - name: Draw Reward ID
+        type: Int32
+      - name: Start Area Minimums
+        type: Array
+        length: 3
+        fields:
+          - name: Value
+            type: Float
+      - name: Start Area Maximums
+        type: Array
+        length: 3
+        fields:
+          - name: Value
+            type: Float
+      - name: Battle Point Task Awards
+        type: Array
+        length: 10
+        fields:
+          - name: Value
+            type: Int32
+      - name: Battle Points
+        type: Array
+        length: 10
+        fields:
+          - name: Value
+            type: Int32
+      - name: Initiate battle Point
+        type: Int32
+      - name: Fail Battle Point
+        type: Int32
+      - name: Required Reputation ID
+        type: Int32
+      - name: Required Reputation Amount
+        type: Int32
+      - name: Base Reputation Decay
+        type: Int32
+  - name: Wait Time
+    type: Int32
+  - name: Balance Population
+    type: Int32
+  - name: Auto Assign Side
+    type: Int32
+  - name: Population Ratio
+    type: Float
+  - name: Team Mode
+    type: Int32
+  - name: Family Mode
+    type: Int32
+  - name: Faction Mode
+    type: Int32

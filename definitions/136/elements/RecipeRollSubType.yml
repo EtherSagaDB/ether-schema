@@ -1,0 +1,9 @@
+name: Recipe Roll Sub Type
+id: 96
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64

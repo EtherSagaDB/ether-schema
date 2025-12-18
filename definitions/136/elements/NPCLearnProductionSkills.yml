@@ -1,0 +1,17 @@
+name: NPC Learn Production Skills
+id: 34
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Production Skills
+    type: Array
+    length: 32
+    fields:
+      - name: ID
+        type: Int32
+      - name: Cost
+        type: Int32

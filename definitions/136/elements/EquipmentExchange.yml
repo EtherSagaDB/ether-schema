@@ -1,0 +1,29 @@
+name: Equipment Exchange
+id: 60
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Gen Item ID
+    type: Int32
+  - name: Gen Item Lvl
+    type: Int32
+  - name: Main Item ID
+    type: Int32
+  - name: Main Item Level
+    type: Int32
+  - name: Auxillary Items
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+  - name: Success Rate
+    type: Float
+  - name: Fee
+    type: Int32

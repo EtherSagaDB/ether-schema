@@ -1,0 +1,27 @@
+name: NPC Profession Demotion Service
+id: 122
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Required Profession Mask
+    type: Int32
+  - name: Transform Profession Mask
+    type: Int32
+  - name: Items
+    type: Array
+    length: 8
+    fields:
+      - name: ID
+        type: Int32
+      - name: Return Per Item
+        type: Float
+  - name: Price
+    type: Int32
+  - name: Reputation ID
+    type: Int32
+  - name: Reputation Value
+    type: Int32

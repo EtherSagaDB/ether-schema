@@ -1,0 +1,33 @@
+name: NPC Super Upgrade
+id: 58
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Upgrades
+    type: Array
+    length: 6
+    fields:
+      - name: Level
+        type: Int32
+      - name: Item Requirements
+        type: Array
+        length: 4
+        fields:
+          - name: ID
+            type: Int32
+          - name: Amount
+            type: Int32
+      - name: Money
+        type: Int32
+      - name: Reputation Costs
+        type: Array
+        length: 4
+        fields:
+          - name: ID
+            type: Int32
+          - name: Cost
+            type: Int32

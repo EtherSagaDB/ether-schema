@@ -1,0 +1,52 @@
+name: Runes
+id: 59
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Path ID Show GFX
+    type: Int32
+  - name: Level
+    type: Int32
+  - name: Show Level
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Pack Index
+    type: Int32
+  - name: Fixed Addons
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+      # props in Rune Combination Config are int so not sure why this is float
+      - name: Prop
+        type: Float
+  - name: Random Addons
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+  - name: Removal Aux Items
+    type: Array
+    length: 2
+    fields:
+      - name: ID
+        type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

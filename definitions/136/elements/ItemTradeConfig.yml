@@ -1,0 +1,41 @@
+name: Item Trade Config
+id: 119
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Shop Tab
+    type: Array
+    length: 4
+    fields:
+      - name: Title
+        type: String
+        subtype: Fixed
+        length: 16
+      - name: Items
+        type: Array
+        length: 48
+        fields:
+          - name: ID
+            type: Int32
+          - name: Required Items
+            type: Array
+            length: 2
+            fields:
+              - name: ID
+                type: Int32
+              - name: Quantity
+                type: Int32
+          - name: Required Reputation
+            type: Array
+            length: 2
+            fields:
+              - name: ID
+                type: Int32
+              - name: Quantity
+                type: Int32
+  - name: Dialogue ID
+    type: Int32

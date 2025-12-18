@@ -1,0 +1,65 @@
+name: Potion
+id: 7
+fields:
+  - name: ID
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Sub Type
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Level Requirement
+    type: Int32
+  - name: Cool Type Mask
+    type: Int32
+  - name: Cool Time
+    type: Int32
+  - name: Only in War
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: HP Recovery
+    type: Array
+    length: 4
+    fields:
+      - name: HP
+        type: Int32
+  - name: MP Recovery
+    type: Array
+    length: 4
+    fields:
+      - name: MP
+        type: Int32
+  - name: VP Recovery
+    type: Array
+    length: 4
+    fields:
+      - name: VP
+        type: Int32
+  - name: Anger Recovery
+    type: Array
+    length: 4
+    fields:
+      - name: Anger
+        type: Int32
+  - name: Physique Add
+    type: Int32
+  - name: Physique Decrease
+    type: Int32
+  - name: Physique
+    type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

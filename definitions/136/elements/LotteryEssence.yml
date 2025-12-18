@@ -1,0 +1,41 @@
+name: Lottery Essence
+id: 108
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Dice Count
+    type: Int32
+  - name: Item Consumption
+    type: Int32
+  - name: Extra Award
+    type: Int32
+  - name: Candidates
+    type: Array
+    length: 32
+    fields:
+      - name: Description
+        type: String
+        subtype: Fixed
+        length: 32
+      - name: Pattern ID
+        type: Int32
+      - name: Icon
+        type: Int32
+  - name: Index Face
+    type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

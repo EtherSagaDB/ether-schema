@@ -1,0 +1,17 @@
+name: Garden Function
+id: 49
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Type
+    type: Int32
+  - name: Time
+    type: Int32
+  - name: Prop
+    type: Int32
+  - name: Path ID Dog Model
+    type: Int32

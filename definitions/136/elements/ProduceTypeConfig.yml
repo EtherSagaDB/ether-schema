@@ -1,0 +1,11 @@
+name: Produce Type Config
+id: 33
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Produce ID
+    type: Int32

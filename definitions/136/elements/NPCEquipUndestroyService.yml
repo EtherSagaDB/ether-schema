@@ -1,0 +1,13 @@
+name: NPC Equip Undestroy Service
+id: 102
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Required Item
+    type: Int32
+  - name: Price
+    type: Int32

@@ -1,0 +1,49 @@
+name: Gardens
+id: 43
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Init Level
+    type: Int32
+  - name: Max Level
+    type: Int32
+  - name: Exp List ID
+    type: Int32
+  - name: Garden Levels
+    type: Array
+    length: 10
+    fields:
+      - name: Farmland Num
+        type: Int32
+      - name: Loveland Num
+        type: Int32
+      - name: Arable Loveland Num
+        type: Int32
+      - name: New Farmland Cost
+        type: Int32
+      - name: New Loveland Cost
+        type: Int32
+      - name: Exp Ratio
+        type: Float
+      - name: Extra Exp
+        type: Int32
+      - name: Exp Time
+        type: Int32
+      - name: Bag Length
+        type: Int32
+      - name: Bag Width
+        type: Int32
+      - name: Path ID Model
+        type: Int32
+      - name: Hanger Mask
+        type: Int32
+      - name: Need Exp
+        type: Int32
+      - name: Level up Reward
+        type: Int32
+  - name: Plow Ward
+    type: Int32

@@ -1,0 +1,53 @@
+name: Aircraft
+id: 24
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Model
+    type: Int32
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Description
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Level Requirement
+    type: Int32
+  - name: Character Combo ID
+    type: Int32
+  - name: Only in War
+    type: Int32
+  - name: Fly Mode
+    type: Int32
+  - name: Speed
+    type: Float
+  - name: MP Used
+    type: Int32
+  - name: Sprint Speed
+    type: Float
+  - name: VP Used
+    type: Int32
+  - name: Can Attack
+    type: Int32
+  - name: Addons
+    type: Array
+    length: 5
+    fields:
+      - name: ID
+        type: Int32
+      - name: Level
+        type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

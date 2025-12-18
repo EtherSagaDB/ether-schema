@@ -1,0 +1,61 @@
+name: Param Adjust Config
+id: 78
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Level Difference Adjustments
+    type: Array
+    length: 16
+    fields:
+      - name: Level Difference
+        type: Int32
+      - name: Experience Adjustment
+        type: Float
+      - name: Money Adjustment
+        type: Float
+      - name: Item Drop Adjustment
+        type: Float
+      - name: Attack Adjustment
+        type: Float
+  - name: Team Adjustments
+    type: Array
+    length: 11
+    fields:
+      - name: Experience Adjustment
+        type: Float
+  - name: Profession Team Adjustments
+    type: Array
+    length: 9
+    fields:
+      - name: Experience Adjustment
+        type: Float
+  - name: Produce Level Difference Adjustments
+    type: Array
+    length: 9
+    fields:
+      - name: Level Difference
+        type: Int32
+      - name: Experience Adjustment
+        type: Float
+  - name: Pet Capture Adjustments
+    type: Array
+    length: 16
+    fields:
+      - name: Adjustment
+        type: Float
+  - name: Pet Fight Winner Scores
+    type: Array
+    length: 16
+    fields:
+      - name: Score
+        type: Int32
+  - name: Pet Fight Loser Scores
+    type: Array
+    length: 16
+    fields:
+      - name: Score
+        type: Int32

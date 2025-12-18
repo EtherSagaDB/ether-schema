@@ -1,1 +1,0 @@
-{"name":"Garden Function","id":49,"offset":4,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"Type","type":"int32","length":4},{"name":"Time","type":"int32","length":4},{"name":"Prop","type":"int32","length":4},{"name":"PathIDDogModel","type":"int32","length":4}]}

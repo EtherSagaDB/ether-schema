@@ -1,0 +1,6 @@
+name: Talisman Experience Food
+id: 114
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 96

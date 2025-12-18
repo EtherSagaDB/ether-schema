@@ -1,0 +1,6 @@
+name: GM Generator
+id: 84
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 92

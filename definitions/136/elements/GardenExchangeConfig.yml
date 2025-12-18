@@ -1,0 +1,8 @@
+name: Garden Exchange Config
+id: 56
+fields:
+  - name: ID
+    type: Int32
+  - name: Unknown
+    type: Bytes
+    length: 7808

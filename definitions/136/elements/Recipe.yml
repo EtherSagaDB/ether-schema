@@ -1,0 +1,65 @@
+name: Recipe
+id: 75
+fields:
+  - name: ID
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Sub Type
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Level
+    type: Int32
+  - name: Item Chance
+    type: Array
+    length: 3
+    fields:
+      - name: Probability
+        type: Float
+      - name: Item
+        type: Int32
+      - name: Minimum Amount
+        type: Int32
+      - name: Maximum Amount
+        type: Int32
+  - name: Price
+    type: Int32
+  - name: Duration
+    type: Float
+  - name: Cycle
+    type: Int32
+  - name: Times
+    type: Int32
+  - name: Items
+    type: Array
+    length: 6
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+  - name: Produce Type
+    type: Int32
+  - name: Requirements
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+  - name: Action
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Produced Items
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32

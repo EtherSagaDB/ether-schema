@@ -1,0 +1,9 @@
+name: Skill Tome Type
+id: 12
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64

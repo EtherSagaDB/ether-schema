@@ -1,0 +1,151 @@
+name: Equipment Upgrade
+id: 23
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Max Level
+    type: Int32
+  - name: Upgrade Spirit Requirement
+    type: Array
+    length: 10
+    fields:
+      - name: Spirit
+        type: Int32
+  - name: Phy Dmg
+    type: Int32
+  - name: Phy Dmg Var
+    type: Int32
+  - name: Magic Dmg
+    type: Int32
+  - name: Magic Dmg Var
+    type: Int32
+  - name: Phy Defence
+    type: Int32
+  - name: Phy Defence Var
+    type: Int32
+  - name: Magic Defence
+    type: Int32
+  - name: Magic Defence Var
+    type: Int32
+  - name: HP
+    type: Int32
+  - name: HP Var
+    type: Int32
+  - name: MP
+    type: Int32
+  - name: MP Var
+    type: Int32
+  - name: Attack
+    type: Int32
+  - name: Attack Var
+    type: Int32
+  - name: Armor
+    type: Int32
+  - name: Armor Var
+    type: Int32
+  - name: Adjust Gold
+    type: Int32
+  - name: Adjust Gold Var
+    type: Int32
+  - name: Adjust Wood
+    type: Int32
+  - name: Adjust Wood Var
+    type: Int32
+  - name: Adjust Water
+    type: Int32
+  - name: Adjust Water Var
+    type: Int32
+  - name: Adjust Fire
+    type: Int32
+  - name: Adjust Fire Var
+    type: Int32
+  - name: Adjust Earth
+    type: Int32
+  - name: Adjust Earth Var
+    type: Int32
+  - name: Adjust Phy
+    type: Int32
+  - name: Adjust Phy Var
+    type: Int32
+  - name: Adjust None
+    type: Int32
+  - name: Adjust None Var
+    type: Int32
+  - name: Speed
+    type: Float
+  - name: Speed Var
+    type: Float
+  - name: Upgrade Phy Dmg
+    type: Int32
+  - name: Upgrade Phy Dmg Var
+    type: Int32
+  - name: Upgrade Magic Dmg
+    type: Int32
+  - name: Upgrade Magic Dmg Var
+    type: Int32
+  - name: Upgrade Phy Defence
+    type: Int32
+  - name: Upgrade Phy Defence Var
+    type: Int32
+  - name: Upgrade Magic Defence
+    type: Int32
+  - name: Upgrade Magic Defence Var
+    type: Int32
+  - name: Upgrade HP
+    type: Int32
+  - name: Upgrade HP Var
+    type: Int32
+  - name: Upgrade MP
+    type: Int32
+  - name: Upgrade MP Var
+    type: Int32
+  - name: Upgrade Attack
+    type: Int32
+  - name: Upgrade Attack Var
+    type: Int32
+  - name: Upgrade Armor
+    type: Int32
+  - name: Upgrade Armor Var
+    type: Int32
+  - name: Upgrade Adjust Gold
+    type: Int32
+  - name: Upgrade Adjust Gold Var
+    type: Int32
+  - name: Upgrade Adjust Wood
+    type: Int32
+  - name: Upgrade Adjust Wood Var
+    type: Int32
+  - name: Upgrade Adjust Water
+    type: Int32
+  - name: Upgrade Adjust Water Var
+    type: Int32
+  - name: Upgrade Adjust Fire
+    type: Int32
+  - name: Upgrade Adjust Fire Var
+    type: Int32
+  - name: Upgrade Adjust Earth
+    type: Int32
+  - name: Upgrade Adjust Earth Var
+    type: Int32
+  - name: Upgrade Adjust Phy
+    type: Int32
+  - name: Upgrade Adjust Phy Var
+    type: Int32
+  - name: Upgrade Adjust None
+    type: Int32
+  - name: Upgrade Adjust None Var
+    type: Int32
+  - name: Upgrade Speed
+    type: Float
+  - name: Upgrade Speed Var
+    type: Float
+  - name: Addons
+    type: Array
+    length: 80
+    fields:
+      - name: ID
+        type: Int32

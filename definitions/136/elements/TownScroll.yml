@@ -1,0 +1,25 @@
+name: Town Scroll
+id: 16
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Use Time
+    type: Float
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Blank
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

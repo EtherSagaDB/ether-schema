@@ -1,0 +1,6 @@
+name: Talisman Merge Catalyst
+id: 115
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 92

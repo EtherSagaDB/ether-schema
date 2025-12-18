@@ -1,0 +1,53 @@
+name: Player Level Experience Config
+id: 86
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Level Experience
+    type: Array
+    length: 200
+    fields:
+      - name: Experience
+        type: Double
+  - name: Talisman Experience
+    type: Array
+    length: 100
+    fields:
+      - name: Experience
+        type: Int32
+  - name: Production Experience Requirement
+    type: Array
+    length: 10
+    fields:
+      - name: Experience
+        type: Int32
+  - name: Production Experience Gained
+    type: Array
+    length: 10
+    fields:
+      - name: Experience
+        type: Array
+        length: 10
+        fields:
+          - name: Gain
+            type: Float
+  - name: Level Experience 2
+    type: Array
+    length: 12
+    fields:
+      - name: Experience
+        type: Array
+        length: 200
+        fields:
+          - name: Value
+            type: Double
+  - name: Pet Experience
+    type: Array
+    length: 200
+    fields:
+      - name: Experience
+        type: Double

@@ -1,0 +1,19 @@
+name: Upgrade Transfer
+id: 55
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Requirements
+    type: Array
+    length: 20
+    fields:
+      - name: Object Required
+        type: Int32
+      - name: Success Rate
+        type: Float
+      - name: Fee
+        type: Int32

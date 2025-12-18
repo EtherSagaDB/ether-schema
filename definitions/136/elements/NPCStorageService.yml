@@ -1,0 +1,10 @@
+name: NPC Storage Service
+id: 70
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+

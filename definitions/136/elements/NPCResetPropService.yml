@@ -1,0 +1,17 @@
+name: NPC Reset Prop Service
+id: 89
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Item Requirements
+    type: Array
+    length: 6
+    fields:
+      - name: ID
+        type: Int32
+      - name: Reset Prop Type
+        type: Int32

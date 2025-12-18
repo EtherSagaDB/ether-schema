@@ -1,0 +1,15 @@
+name: Speak Num Money
+id: 52
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Costs
+    type: Array
+    length: 100
+    fields:
+      - name: Cost
+        type: Int32

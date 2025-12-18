@@ -1,0 +1,159 @@
+name: Equipment
+id: 4
+fields:
+  - name: ID
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Sub Type
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Equip Type
+    type: Int32
+  - name: Equip Mask
+    type: Int32
+  - name: Path ID Male
+    type: Int32
+  - name: Path ID Female
+    type: Int32
+  - name: Path ID Male I
+    type: Int32
+  - name: Path ID Female I
+    type: Int32
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Equip Location
+    type: Int32
+  - name: Action Type
+    type: Int32
+  - name: Show Type
+    type: Int32
+  - name: Show Level
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Level
+    type: Int32
+  - name: Character Combo ID
+    type: Int32
+  - name: Require Gender
+    type: Int32
+  - name: Require Level
+    type: Int32
+  - name: Sect Mask
+    type: Int32
+  - name: Require Level 2
+    type: Int32
+  - name: Race Mask
+    type: Int32
+  - name: HP
+    type: Int32
+  - name: MP
+    type: Int32
+  - name: Minimum Physical Damage
+    type: Int32
+  - name: Maximum Physical Damage
+    type: Int32
+  - name: Minimum Magical Damage
+    type: Int32
+  - name: Maximum Magical Damage
+    type: Int32
+  - name: Physical Defense
+    type: Int32
+  - name: Magical Defense
+    type: Int32
+  - name: Attack
+    type: Int32
+  - name: Armor
+    type: Int32
+  - name: Attack Range
+    type: Float
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Addons
+    type: Array
+    length: 5
+    fields:
+      - name: Addon
+        type: Int32
+  - name: Random Addon Groups
+    type: Array
+    length: 5
+    fields:
+      - name: Random Addon Group
+        type: Int32
+  - name: Fee EStone
+    type: Int32
+  - name: Fee Install PStone
+    type: Int32
+  - name: Fee Uninstall PStone
+    type: Int32
+  - name: Fee Install SStone
+    type: Int32
+  - name: Fee Uninstall SStone
+    type: Int32
+  - name: EStone ID
+    type: Int32
+  - name: Addon Prop
+    type: Int32
+  - name: Basic Rank
+    type: Float
+  - name: Enhanced Values
+    type: Array
+    length: 20
+    fields:
+      - name: Enhanced Value
+        type: Int32
+  - name: Basic Show Level
+    type: Int32
+  - name: PStone Amount
+    type: Int32
+  - name: PStone Var
+    type: Int32
+  - name: Can Upgrade
+    type: Int32
+  - name: ID Upgrade
+    type: Int32
+  - name: Addon Skills
+    type: Array
+    length: 2
+    fields:
+      - name: Addon Skill
+        type: Int32
+  - name: Suite Conditions
+    type: Array
+    length: 8
+    fields:
+      - name: Suite Condition
+        type: Int32
+  - name: Suite Ext Props
+    type: Array
+    length: 5
+    fields:
+      - name: Suite Ext Prop
+        type: Int32
+  - name: Added Level Require
+    type: Int32
+  - name: Gen EStone Max
+    type: Int32
+  - name: Gen Estone Min
+    type: Int32
+  - name: Can Install Hole
+    type: Int32
+  - name: Max Hole Num
+    type: Int32
+  - name: Item Install Hole
+    type: Int32
+  - name: Can Add Rune
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

@@ -1,0 +1,6 @@
+name: Talisman Main Part
+id: 113
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 200

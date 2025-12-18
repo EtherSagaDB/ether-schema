@@ -1,0 +1,127 @@
+name: Mine Essence
+id: 82
+fields:
+  - name: ID
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Level
+    type: Int32
+  - name: Level Requirement
+    type: Int32
+  - name: Tool Requirement
+    type: Int32
+  - name: Destroy Tool
+    type: Int32
+  - name: Minimum Time
+    type: Int32
+  - name: Maximum Time
+    type: Int32
+  - name: Experience
+    type: Int32
+  - name: Skillpoints
+    type: Int32
+  - name: Path ID Matter
+    type: Int32
+  - name: Materials
+    type: Array
+    length: 16
+    fields:
+      - name: ID
+        type: Int32
+      - name: Probability
+        type: Float
+  - name: Quantity Obtained
+    type: Array
+    length: 2
+    fields:
+      - name: Quantity
+        type: Int32
+      - name: Probability
+        type: Float
+  - name: Task In
+    type: Int32
+  - name: Task Out
+    type: Int32
+  - name: Uninterruptable
+    type: Int32
+  - name: NPC Spawns
+    type: Array
+    length: 4
+    fields:
+      - name: Monster ID
+        type: Int32
+      - name: Quantity
+        type: Int32
+      - name: Radius
+        type: Float
+  - name: Aggressive Monster Faction
+    type: Int32
+  - name: Aggressive Monster Radius
+    type: Float
+  - name: Aggressive Monster Quantity
+    type: Int32
+  - name: War Role
+    type: Int32
+  - name: Permanent
+    type: Int32
+  - name: Activation Controller Mode
+    type: Int32
+  - name: Activation Controllers
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+  - name: Deactivation Controller Mode
+    type: Int32
+  - name: Deactivation Controllers
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+  - name: Action
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Displayed Type
+    type: String
+    subtype: Fixed
+    length: 512
+  - name: Is Multiple
+    type: Int32
+  - name: Recipe ID
+    type: Int32
+  - name: Prop Elimination
+    type: Float
+  - name: Path ID Occupy Icon
+    type: Int32
+  - name: Mine RLT
+    type: Array
+    length: 4
+    fields:
+      - name: Faction
+        type: Int32
+      - name: Open Controls
+        type: Array
+        length: 4
+        fields:
+          - name: ID
+            type: Int32
+      - name: Close Controls
+        type: Array
+        length: 4
+        fields:
+          - name: ID
+            type: Int32
+  - name: Faction
+    type: Int32
+  - name: Is Center Mine
+    type: Int32
+  - name: Only By Host
+    type: Int32

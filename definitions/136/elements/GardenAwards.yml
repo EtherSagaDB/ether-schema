@@ -1,0 +1,29 @@
+name: Garden Awards
+id: 50
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Award Percent
+    type: Float
+  - name: Max Kind
+    type: Int32
+  - name: Actual Kind
+    type: Int32
+  - name: Money
+    type: Int32
+  - name: Money Percent
+    type: Float
+  - name: Item Chance
+    type: Array
+    length: 24
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+      - name: Probability
+        type: Float

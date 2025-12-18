@@ -1,0 +1,61 @@
+name: Hatchers
+id: 40
+fields:
+  - name: ID
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Need Exp
+    type: Double
+  - name: Need Level
+    type: Int32
+  - name: Exp Inc Type
+    type: Int32
+  - name: Monster ID
+    type: Int32
+  - name: Monster Exp
+    type: Int32
+  - name: Weapon ID
+    type: Int32
+  - name: Skill ID
+    type: Int32
+  - name: Task ID
+    type: Int32
+  - name: Task Exp
+    type: Int32
+  - name: Produce ID
+    type: Int32
+  - name: Produce Exp
+    type: Int32
+  - name: Ore ID
+    type: Int32
+  - name: Ore Exp
+    type: Int32
+  - name: Recipe ID
+    type: Int32
+  - name: Recipe Exp
+    type: Int32
+  - name: Items
+    type: Array
+    length: 64
+    fields:
+      - name: ID
+        type: Int32
+      - name: Rate
+        type: Float
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

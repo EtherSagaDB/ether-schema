@@ -1,0 +1,31 @@
+name: Garden Tools
+id: 48
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Icon
+    type: Int32
+  - name: Level
+    type: Int32
+  - name: Garden Level Min
+    type: Int32
+  - name: Functions
+    type: Array
+    length: 5
+    fields:
+      - name: ID
+        type: Int32
+  - name: Has Target
+    type: Int32
+  - name: Sell Price
+    type: Int32
+  - name: Buy Price
+    type: Int32
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

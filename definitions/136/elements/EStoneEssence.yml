@@ -1,0 +1,31 @@
+name: EStone Essence
+id: 90
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Path ID Matter
+    type: Int32
+  - name: Path ID Icon
+    type: Int32
+  - name: Effects
+    type: Array
+    length: 4
+    fields:
+      - name: Equip Mask
+        type: Int32
+      - name: Addon Type
+        type: Int32
+  - name: Price
+    type: Int32
+  - name: Shop Price
+    type: Int32
+  - name: Rank
+    type: Float
+  - name: Stack Size
+    type: Int32
+  - name: Proctype
+    type: Int32

@@ -1,0 +1,6 @@
+name: Player Second Level
+id: 88
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 1092

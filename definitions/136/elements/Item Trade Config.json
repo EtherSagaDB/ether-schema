@@ -1,1 +1,0 @@
-{"name":"Item Trade Config","id":119,"offset":12,"fields":[{"name":"ID","type":"int32","length":4},{"name":"Name","type":"string","length":64},{"name":"Bytes","type":"byte","length":6980}]}

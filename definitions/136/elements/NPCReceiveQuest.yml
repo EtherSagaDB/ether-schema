@@ -1,0 +1,15 @@
+name: NPC Receive Quest
+id: 64
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Tasks
+    type: Array
+    length: 256
+    fields:
+      - name: ID
+        type: Int32

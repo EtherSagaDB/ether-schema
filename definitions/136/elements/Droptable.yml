@@ -1,0 +1,25 @@
+name: Droptable
+id: 20
+fields:
+  - name: ID
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Drop Items
+    type: Array
+    length: 5
+    fields:
+      - name: Drop Item
+        type: Float
+  - name: Drops
+    type: Array
+    length: 64
+    fields:
+      - name: ID
+        type: Int32
+      - name: Probability
+        type: Float

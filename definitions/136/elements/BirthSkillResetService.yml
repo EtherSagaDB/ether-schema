@@ -1,0 +1,15 @@
+name: Birth Skill Reset Service
+id: 104
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Required Items
+    type: Array
+    length: 6
+    fields:
+      - name: ID
+        type: Int32

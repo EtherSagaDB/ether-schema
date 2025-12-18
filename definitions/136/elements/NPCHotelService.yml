@@ -1,0 +1,17 @@
+name: NPC Hotel Service
+id: 32
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: World ID
+    type: Int32
+  - name: X
+    type: Float
+  - name: Y
+    type: Float
+  - name: Z
+    type: Float

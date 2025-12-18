@@ -1,0 +1,65 @@
+name: Rune Combination Config
+id: 57
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Effective
+    type: Int32
+  - name: Path ID Show GFX
+    type: Int32
+  - name: Level Requirement
+    type: Int32
+  - name: Profession Requirement
+    type: Int32
+  - name: Gender
+    type: Int32
+  - name: Race
+    type: Int32
+  - name: Weapon Rune Lvl
+    type: Int32
+  - name: Helmet Rune Lvl
+    type: Int32
+  - name: Armour Rune Lvl
+    type: Int32
+  - name: Shoe Rune Lvl
+    type: Int32
+  - name: Money
+    type: Int32
+  - name: Reputation Cost
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+  - name: SP
+    type: Int32
+  - name: Item Requirement
+    type: Array
+    length: 4
+    fields:
+      - name: ID
+        type: Int32
+      - name: Amount
+        type: Int32
+  - name: Addon Upperlimit
+    type: Int32
+  - name: Fixed Addons
+    type: Array
+    length: 8
+    fields:
+      - name: ID
+        type: Int32
+      - name: Prop
+        type: Int32
+  - name: Random Addons
+    type: Array
+    length: 8
+    fields:
+      - name: ID
+        type: Int32

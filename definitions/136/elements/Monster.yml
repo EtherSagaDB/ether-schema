@@ -1,0 +1,289 @@
+name: Monster
+id: 22
+fields:
+  - name: ID
+    type: Int32
+  - name: Type
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Prop
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Desc
+    type: String
+    subtype: Fixed
+    length: 32
+  - name: Faction
+    type: Int32
+  - name: Enemy Faction
+    type: Int32
+  - name: Monster Faction
+    type: Int32
+  - name: Monster Race
+    type: Int32
+  - name: Path ID Matter
+    type: Int32
+  - name: Size
+    type: Float
+  - name: Name Color
+    type: Int32
+  - name: Strategy ID
+    type: Int32
+  - name: Level
+    type: Int32
+  - name: Show Level
+    type: Int32
+  - name: Is Boss
+    type: Int32
+  - name: Killed Experience
+    type: Int32
+  - name: Killed Drops
+    type: Int32
+  - name: Immune Type
+    type: Int32
+  - name: Show As Flag
+    type: Int32
+  - name: Sight Range
+    type: Float
+  - name: Attack Range
+    type: Float
+  - name: Aggression Mode
+    type: Int32
+  - name: Monster Faction Ask Help
+    type: Int32
+  - name: Monster Faction Can Help
+    type: Int32
+  - name: Aggression Range
+    type: Float
+  - name: Aggression Time
+    type: Float
+  - name: Dead Aggression Time
+    type: Float
+  - name: Patrol Mode
+    type: Int32
+  - name: Stand Mode
+    type: Int32
+  - name: Inhabit Type
+    type: Int32
+  - name: Walk Speed
+    type: Float
+  - name: Run Speed
+    type: Float
+  - name: Common Strategy
+    type: Int32
+  - name: After Death
+    type: Int32
+  - name: Experience
+    type: Int32
+  - name: Spirit
+    type: Int32
+  - name: Average Money
+    type: Int32
+  - name: Money Variable
+    type: Int32
+  - name: HP
+    type: Int32
+  - name: MP
+    type: Int32
+  - name: Faint
+    type: Int32
+  - name: Physical Damage
+    type: Int32
+  - name: Magical Damage
+    type: Int32
+  - name: Physical Defense
+    type: Int32
+  - name: Magical Defense
+    type: Int32
+  - name: Extra Damage
+    type: Int32
+  - name: Extra Defense
+    type: Int32
+  - name: Attack
+    type: Int32
+  - name: Armor
+    type: Int32
+  - name: Physical Crit Rate
+    type: Float
+  - name: Physical Crit Damage
+    type: Float
+  - name: Magical Crit Rate
+    type: Float
+  - name: Magical Crit Damage
+    type: Float
+  - name: Adjust Gold
+    type: Int32
+  - name: Adjust Wood
+    type: Int32
+  - name: Adjust Water
+    type: Int32
+  - name: Adjust Fire
+    type: Int32
+  - name: Adjust Earth
+    type: Int32
+  - name: Adjust None
+    type: Int32
+  - name: Adjust Physical
+    type: Int32
+  - name: HP Generations
+    type: Array
+    length: 2
+    fields:
+      - name: HP Generation
+        type: Int32
+  - name: MP Generations
+    type: Array
+    length: 2
+    fields:
+      - name: MP Generation
+        type: Int32
+  - name: Faint Generation Time
+    type: Int32
+  - name: Faint Generation Speed
+    type: Float
+  - name: War Role
+    type: Int32
+  - name: Drop Times
+    type: Int32
+  - name: Droptable
+    type: Int32
+  - name: Attack Skill
+    type: Int32
+  - name: Skills
+    type: Array
+    length: 32
+    fields:
+      - name: ID
+        type: Int32
+      - name: Level
+        type: Int32
+  - name: capture_prob
+    type: Float
+  - name: Captures
+    type: Array
+    length: 2
+    fields:
+      - name: ID
+        type: Int32
+      - name: Probability
+        type: Float
+  - name: Captureable
+    type: Int32
+  - name: Nascent Skill
+    type: Int32
+  - name: Capture HP Ratio
+    type: Float
+  - name: Not Attack Player
+    type: Int32
+  - name: Use Target List
+    type: Int32
+  - name: Target List
+    type: Array
+    length: 32
+    fields:
+      - name: ID
+        type: Int32
+  - name: Highest Frequency
+    type: Int32
+  - name: Score
+    type: Int32
+  - name: Killed Reputation
+    type: Array
+    length: 4
+    fields:
+      - name: Killed Quantity
+        type: Int32
+      - name: Reputation Type
+        type: Int32
+      - name: Reputation Value
+        type: Int32
+  - name: Anti-Gold
+    type: Int32
+  - name: Anti-Wood
+    type: Int32
+  - name: Anti-Water
+    type: Int32
+  - name: Anti-Fire
+    type: Int32
+  - name: Anti-Earth
+    type: Int32
+  - name: Anti-Physical
+    type: Int32
+  - name: Anti-None
+    type: Int32
+  - name: Anti-Physical Crit Rate
+    type: Float
+  - name: Anti-Physical Crit Damage
+    type: Float
+  - name: Anti-Magical Crit Rate
+    type: Float
+  - name: Anti-Magical Crit Damage
+    type: Float
+  - name: Poison Rate
+    type: Float
+  - name: Injure Rate
+    type: Float
+  - name: Stun Rate
+    type: Float
+  - name: Sleep Rate
+    type: Float
+  - name: Immobilise Rate
+    type: Float
+  - name: Slow Rate
+    type: Float
+  - name: Silence Rate
+    type: Float
+  - name: Blind Rate
+    type: Float
+  - name: Weaken Rate
+    type: Float
+  - name: Immunity Rate
+    type: Float
+  - name: Beatback Rate
+    type: Float
+  - name: Reserve Rate
+    type: Float
+  - name: Anti-Poison Rate
+    type: Float
+  - name: Anti-Injure Rate
+    type: Float
+  - name: Anti-Stun Rate
+    type: Float
+  - name: Anti-Sleep Rate
+    type: Float
+  - name: Anti-Immobilise Rate
+    type: Float
+  - name: Anti-Slow Rate
+    type: Float
+  - name: Anti-Silence Rate
+    type: Float
+  - name: Anti-Blind Rate
+    type: Float
+  - name: Anti-Weaken Rate
+    type: Float
+  - name: Anti-Immunity Rate
+    type: Float
+  - name: Anti-Beatback Rate
+    type: Float
+  - name: Anti-Reserve Rate
+    type: Float
+  - name: Killed Reputation Limits
+    type: Array
+    length: 4
+    fields:
+      - name: Type
+        type: Int32
+      - name: Limit Value
+        type: Int32
+      - name: Limit Counter
+        type: Float
+      - name: Value
+        type: Int32
+  - name: Battle Point Deduction
+    type: Int32
+  - name: Monster Class
+    type: Int32

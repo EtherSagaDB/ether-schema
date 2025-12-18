@@ -1,0 +1,11 @@
+name: NPC Proxy Service
+id: 69
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Dialogue ID
+    type: Int32

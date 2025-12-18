@@ -1,0 +1,17 @@
+name: NPC Activate Quest
+id: 65
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Task Set
+    type: Int32
+  - name: Tasks
+    type: Array
+    length: 256
+    fields:
+      - name: ID
+        type: Int32

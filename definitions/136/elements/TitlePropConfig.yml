@@ -1,0 +1,17 @@
+name: Title Prop Config
+id: 110
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Title
+    type: Int32
+  - name: Addons
+    type: Array
+    length: 3
+    fields:
+      - name: ID
+        type: Int32

@@ -1,0 +1,6 @@
+name: Suite
+id: 98
+fields:
+  - name: Unknown
+    type: Bytes
+    length: 312

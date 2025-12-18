@@ -1,0 +1,9 @@
+name: Recipe Sub Type
+id: 74
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64

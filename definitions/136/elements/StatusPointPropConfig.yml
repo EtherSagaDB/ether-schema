@@ -1,0 +1,75 @@
+name: Status Point Prop Config
+id: 93
+fields:
+  - name: ID
+    type: Int32
+  - name: Name
+    type: String
+    subtype: Fixed
+    length: 64
+  - name: Status Point Type
+    type: Int32
+  - name: Adjust Gold
+    type: Float
+  - name: Adjust Wood
+    type: Float
+  - name: Adjust Water
+    type: Float
+  - name: Adjust Fire
+    type: Float
+  - name: Adjust Earth
+    type: Float
+  - name: Adjust None
+    type: Float
+  - name: Adjust Physical
+    type: Float
+  - name: Pet Adaptation
+    type: Float
+  - name: Pet Rank
+    type: Float
+  - name: HP
+    type: Float
+  - name: MP
+    type: Float
+  - name: VP
+    type: Float
+  - name: Faint
+    type: Float
+  - name: Physical Damage
+    type: Float
+  - name: Magical Damage
+    type: Float
+  - name: Physical Defense
+    type: Float
+  - name: Magical Defense
+    type: Float
+  - name: Attack
+    type: Float
+  - name: Armor
+    type: Float
+  - name: Physical Crit Rate
+    type: Float
+  - name: Physical Crit Damage
+    type: Float
+  - name: Magical Crit Rate
+    type: Float
+  - name: Magical Crit Damage
+    type: Float
+  - name: Walk Speed
+    type: Float
+  - name: Run Speed
+    type: Float
+  - name: Riding Speed
+    type: Float
+  - name: HP Generation
+    type: Array
+    length: 4
+    fields:
+      - name: Value
+        type: Float
+  - name: MP Generation
+    type: Array
+    length: 4
+    fields:
+      - name: Value
+        type: Float
